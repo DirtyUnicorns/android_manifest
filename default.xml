@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="xda"
+           fetch=".." />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+           
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -14,7 +20,9 @@
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
 
 
   <!--AOSP repos-->
