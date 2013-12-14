@@ -449,7 +449,7 @@
   <!--packages-->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
   <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="du" revision="du44" />
-  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du44" revision="du44" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
 
   <!--vendors-->
