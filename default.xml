@@ -461,6 +461,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
 
   <!--vendors-->
+  <project path="vendor/htc" name="vendor_htc" remote="du" revision="du44" />
   <project path="vendor/du" name="vendor_du" remote="du" revision="du44" />
 
 </manifest>
