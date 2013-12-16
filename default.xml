@@ -417,7 +417,6 @@
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-4.4" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-4.4" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-4.4" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="omnirom" revision="android-4.4" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-4.4" />
@@ -461,6 +460,7 @@
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="du" revision="du44" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="du" revision="du44" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="du" revision="du44" />
 
   <!--vendors-->
