@@ -445,7 +445,7 @@
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="du" revision="du44" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="du" revision="du44" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="du" revision="du44" />
-    <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="du" revision="du44" />
+  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="du" revision="du44" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="du" revision="du44" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="du" revision="du44" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="du" revision="du44" />
