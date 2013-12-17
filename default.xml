@@ -449,11 +449,13 @@
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="du" revision="du44" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="du" revision="du44" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="du" revision="du44" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="du" revision="du44" />
 
   <!--kernels-->
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="du" revision="du44" />
   <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="du" revision="du44" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="du" revision="du44" />
+  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="du" revision="du44" />
    
   <!--packages-->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
