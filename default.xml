@@ -444,15 +444,17 @@
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="du" revision="du44" />
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="du" revision="du44" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="du" revision="du44" />
-  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="du" revision="du44" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="du" revision="du44" />
+    <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="du" revision="du44" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="du" revision="du44" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="du" revision="du44" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="du" revision="du44" />
 
   <!--kernels-->
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="du" revision="du44" />
+  <project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="du" revision="du44" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="du" revision="du44" />
-
+   
   <!--packages-->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
   <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="du" revision="du44" />
@@ -465,6 +467,7 @@
 
   <!--vendors-->
   <project path="vendor/du" name="vendor_du" remote="du" revision="du44" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="du" revision="du44" />
   <project path="vendor/htc" name="vendor_htc" remote="du" revision="du44" />
   <project path="vendor/samsung" name="vendor_samsung" remote="du" revision="du44" />
 
