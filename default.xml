@@ -420,7 +420,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-4.4" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" revision="android-4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" revision="android-4.4" />
-  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-4.4" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-4.4" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-4.4" />
 
@@ -433,6 +432,7 @@
   <project path="development" name="development" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
   <project path="system/core" name="system_core" remote="du" revision="du44" />
+  <project path="system/extras" name="system_extras" remote="du" revision="du44" />
 
   <!--frameworks-->
   <project path="frameworks/av" name="frameworks_av" remote="du" revision="du44" />
