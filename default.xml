@@ -431,6 +431,8 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="du" revision="du44"/>
   <project path="development" name="development" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
+  <project name="koush/Superuser" path="Superuser" remote="du" revision="du44" />
+  <project name="koush/Widgets" path="Widgets" remote="du" revision="du44" />
   <project path="system/core" name="system_core" remote="du" revision="du44" />
   <project path="system/extras" name="system_extras" remote="du" revision="du44" />
 
