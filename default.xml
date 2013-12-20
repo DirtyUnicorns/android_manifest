@@ -443,7 +443,7 @@
 
   <!--device and commons-->
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="du" revision="du44" />
-    <project path="device/htc/m7att" name="device_htc_m7att" remote="du" revision="du44" />
+  <project path="device/htc/m7att" name="device_htc_m7att" remote="du" revision="du44" />
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="du" revision="du44" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="du" revision="du44" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="du" revision="du44" />
