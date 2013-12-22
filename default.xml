@@ -294,7 +294,6 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -469,6 +468,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="du" revision="du44" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="du" revision="du44" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="du" revision="du44" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="du" revision="du44" />
 
