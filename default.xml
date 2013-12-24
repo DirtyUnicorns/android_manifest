@@ -461,6 +461,7 @@
    
   <!--packages-->
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="du" revision="du44" />
+  <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="du" revision="du44" />
   <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="du" revision="du44" />
