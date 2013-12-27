@@ -461,7 +461,7 @@
    
   <!--packages-->
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="du" revision="du44" />
-  <project path="packages/apps/DirtWalls" name="packages_apps_DirtWalls" remote="du" revision="du44" />
+  <project path="packages/apps/DU_Walls" name="packages_apps_DU_Walls" remote="du" revision="du44" />
   <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
   <project path="packages/apps/DU_stats" name="packages_apps_DU_stats" remote="du" revision="du44" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
