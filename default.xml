@@ -440,6 +440,7 @@
 
   <!--hardware-->
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="du44" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="du" revision="du44" />
 
   <!--device and commons-->
   <project path="device/asus/flo" name="android_device_asus_flo" remote="du" revision="du44" />
