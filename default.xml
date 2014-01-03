@@ -459,6 +459,12 @@
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="du" revision="du44" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="du" revision="du44" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="du" revision="du44" />
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="du" revision="du44" />
+  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="du" revision="du44" />
+  <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" remote="du" revision="du44" />
+  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="du" revision="du44" />
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="du" revision="du44" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="du" revision="du44" />
 
   <!--kernels-->
   <project path="kernel/asus/flo" name="android_kernel_asus_flo" remote="du" revision="du44" />
@@ -468,6 +474,7 @@
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="du" revision="du44" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="du" revision="du44" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="du" revision="du44" />
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="du" revision="du44" />
    
   <!--packages-->
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="du" revision="du44" />
