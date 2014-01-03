@@ -9,7 +9,8 @@
            review="android-review.googlesource.com" />
 
   <remote  name="du"
-           fetch="https://github.com/DirtyUnicorns-KitKat/" />
+           fetch="https://github.com/DirtyUnicorns-KitKat/" 
+           review="gerrit.dirtyunicorns.com" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
