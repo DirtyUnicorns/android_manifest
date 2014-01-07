@@ -418,7 +418,7 @@
 
   <!--DU repos-->
   <!--misc-->
-   <project path="build" name="build" remote="du" revision="du44" >
+   <project path="build" name="build" remote="du" revision="du-44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="du" revision="du44" />
