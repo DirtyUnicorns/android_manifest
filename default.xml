@@ -505,8 +505,5 @@
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="du" revision="du44" />
   <project path="vendor/htc" name="vendor_htc" remote="du" revision="du44" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="du" revision="du44" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor-tmobile-apps-ThemeChooser" remote="du" revision="du44" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="du" revision="du44" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="du" revision="du44" />
 
 </manifest>
