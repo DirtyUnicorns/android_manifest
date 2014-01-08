@@ -16,7 +16,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/du44"
+  <default revision="du44"
            remote="aosp"
            sync-c="true"
            sync-f="true"
