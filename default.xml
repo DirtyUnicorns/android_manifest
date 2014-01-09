@@ -17,7 +17,7 @@
            fetch="https://github.com/omnirom" />
 
   <default revision="du44"
-           remote="aosp"
+           remote="du"
            sync-c="true"
            sync-f="true"
            sync-j="8" />
