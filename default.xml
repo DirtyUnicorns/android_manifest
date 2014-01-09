@@ -2,22 +2,19 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://github.com/" 
+           review="gerrit.dirtyunicorns.com" />
            
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-
-  <remote  name="du"
-           fetch="https://github.com/DirtyUnicorns-KitKat/" 
-           review="gerrit.dirtyunicorns.com" />
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
   <default revision="du44"
-           remote="aosp"
+           remote="github"
            sync-c="true"
            sync-f="true"
            sync-j="8" />
@@ -418,45 +415,45 @@
 
   <!--DU repos-->
   <!--misc-->
-   <project path="build" name="build" remote="du" revision="du-44" >
+   <project path="build" name="DirtyUnicorns-KitKat/build" revision="du-44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="du" revision="du44" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="du" revision="du44"/>
-  <project path="development" name="development" remote="du" revision="du44" />
-  <project path="manifest" name="manifest" remote="du" revision="du44" />
-  <project path="libcore" name="libcore" remote="du" revision="du44" />
-  <project path="system/core" name="system_core" remote="du" revision="du44" />
-  <project path="system/extras" name="system_extras" remote="du" revision="du44" />
+  <project path="bionic" name="DirtyUnicorns-KitKat/android_bionic" revision="du44" />
+  <project path="bootable/recovery" name="DirtyUnicorns-KitKat/bootable_recovery" revision="du44"/>
+  <project path="development" name="DirtyUnicorns-KitKat/development" revision="du44" />
+  <project path="manifest" name="DirtyUnicorns-KitKat/manifest" revision="du44" />
+  <project path="libcore" name="DirtyUnicorns-KitKat/libcore" revision="du44" />
+  <project path="system/core" name="DirtyUnicorns-KitKat/system_core" revision="du44" />
+  <project path="system/extras" name="DirtyUnicorns-KitKat/system_extras" revision="du44" />
 
   <!--frameworks-->
-  <project path="frameworks/av" name="frameworks_av" remote="du" revision="du44" />
-  <project path="frameworks/base" name="frameworks_base" remote="du" revision="du44" />
-  <project path="frameworks/native" name="frameworks_native" remote="du" revision="du44" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="du" revision="du44" />
+  <project path="frameworks/av" name="DirtyUnicorns-KitKat/frameworks_av" revision="du44" />
+  <project path="frameworks/base" name="DirtyUnicorns-KitKat/frameworks_base" revision="du44" />
+  <project path="frameworks/native" name="DirtyUnicorns-KitKat/frameworks_native" revision="du44" />
+  <project path="frameworks/opt/telephony" name="DirtyUnicorns-KitKat/frameworks_opt_telephony" revision="du44" />
 
   <!--hardware-->
-  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="du44" />
+  <project path="hardware/ril" name="DirtyUnicorns-KitKat/android_hardware_ril" revision="du44" />
 
   <!--packages-->
-  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="du" revision="du44" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="du" revision="du44" />
-  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="du" revision="du44" />
-  <project path="packages/apps/DU_about" name="packages_apps_DU_about" remote="du" revision="du44" />
-  <project path="packages/apps/DU_walls" name="packages_apps_DU_walls" remote="du" revision="du44" />
-  <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
-  <project path="packages/apps/DU_stats" name="packages_apps_DU_stats" remote="du" revision="du44" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="du" revision="du44" />
-  <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="du" revision="du44" />
-  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="du" revision="du44" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="du" revision="du44" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="du" revision="du44" />
+  <project path="packages/apps/Apollo" name="DirtyUnicorns-KitKat/packages_apps_Apollo" revision="du44" />
+  <project path="packages/apps/Dialer" name="DirtyUnicorns-KitKat/packages_apps_Dialer" revision="du44" />
+  <project path="packages/apps/DSPManager" name="DirtyUnicorns-KitKat/packages_apps_DSPManager" revision="du44" />
+  <project path="packages/apps/DU_about" name="DirtyUnicorns-KitKat/packages_apps_DU_about" revision="du44" />
+  <project path="packages/apps/DU_walls" name="DirtyUnicorns-KitKat/packages_apps_DU_walls" revision="du44" />
+  <project path="packages/apps/DU_changelog" name="DirtyUnicorns-KitKat/packages_apps_DU_changelog" revision="du44" />
+  <project path="packages/apps/DU_stats" name="DirtyUnicorns-KitKat/packages_apps_DU_stats" revision="du44" />
+  <project path="packages/apps/Launcher3" name="DirtyUnicorns-KitKat/packages_apps_Launcher3" revision="du44" />
+  <project path="packages/apps/Mms" name="DirtyUnicorns-KitKat/packages_apps_Mms" revision="du44" />
+  <project path="packages/apps/OmniGears" name="DirtyUnicorns-KitKat/packages_apps_OmniGears" revision="du44" />
+  <project path="packages/apps/PerformanceControl" name="DirtyUnicorns-KitKat/packages_apps_PerformanceControl" revision="du44" />
+  <project path="packages/apps/Settings" name="DirtyUnicorns-KitKat/packages_apps_Settings" revision="du44" />
+  <project path="packages/inputmethods/LatinIME" name="DirtyUnicorns-KitKat/packages_inputmethods_LatinIME" revision="du44" />
+  <project path="packages/providers/ContactsProvider" name="DirtyUnicorns-KitKat/packages_providers_ContactsProvider" revision="du44" />
+  <project path="packages/providers/MediaProvider" name="DirtyUnicorns-KitKat/packages_providers_MediaProvider" revision="du44" />
+  <project path="packages/services/Telephony" name="DirtyUnicorns-KitKat/packages_services_Telephony" revision="du44" />
 
   <!--vendors-->
-  <project path="vendor/du" name="vendor_du" remote="du" revision="du44" />
+  <project path="vendor/du" name="DirtyUnicorns-KitKat/vendor_du" revision="du44" />
 
 </manifest>
