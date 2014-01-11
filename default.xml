@@ -403,7 +403,6 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-4.4" />
@@ -447,6 +446,7 @@
   <project path="packages/apps/DU_walls" name="packages_apps_DU_walls" remote="du" revision="du44" />
   <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
   <project path="packages/apps/DU_stats" name="packages_apps_DU_stats" remote="du" revision="du44" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="du" revision="du44" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="du" revision="du44" />
   <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="du" revision="du44" />
