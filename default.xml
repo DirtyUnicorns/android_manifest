@@ -444,6 +444,7 @@
   <project path="packages/apps/DU_about" name="packages_apps_DU_about" remote="du" revision="du44" />
   <project path="packages/apps/DU_walls" name="packages_apps_DU_walls" remote="du" revision="du44" />
   <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
+  <project path="packages/apps/DU_HFM" name="packages_apps_DU_HFM" remote="du" revision="du44" />
   <project path="packages/apps/DU_stats" name="packages_apps_DU_stats" remote="du" revision="du44" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="du" revision="du44" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="du" revision="du44" />
