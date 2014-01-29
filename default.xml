@@ -396,7 +396,6 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
@@ -439,6 +438,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="du" revision="du44" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="du" revision="du44" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="du" revision="du44" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="du" revision="du44" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="du" revision="du44" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="du" revision="du44" />
   <project path="packages/apps/DU_about" name="packages_apps_DU_about" remote="du" revision="du44" />
