@@ -294,7 +294,6 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="refs/tags/android-4.4.2_r1" remote="aosp" />
@@ -455,6 +454,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="du" revision="du44" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="du" revision="du44" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="du" revision="du44" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="du" revision="du44" />
 
