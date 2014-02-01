@@ -396,7 +396,6 @@
   <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-4.4" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-4.4" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="omnirom" revision="android-4.4" />
@@ -450,6 +449,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="du" revision="du44" />
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="du" revision="du44" />
+  <project path="packages/apps/OmniTorch" name="packages_apps_OmniTorch" remote="du" revision="du44" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
