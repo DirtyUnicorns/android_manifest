@@ -34,14 +34,11 @@
   <project path="developers/docs" name="platform/developers/docs" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/common" name="device/common" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
@@ -401,6 +398,9 @@
   <project path="bionic" name="android_bionic" remote="du" revision="du44" />
   <project path="bootable/recovery" name="bootable_recovery" remote="du" revision="du44"/>
   <project path="development" name="development" remote="du" revision="du44" />
+  <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
+  <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
+  <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
   <project path="libcore" name="libcore" remote="du" revision="du44" />
