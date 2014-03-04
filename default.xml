@@ -401,6 +401,7 @@
   <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
   <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
   <project path="libcore" name="libcore" remote="du" revision="du44" />
