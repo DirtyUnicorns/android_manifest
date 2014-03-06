@@ -414,6 +414,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="du" revision="du44" />
   <project path="frameworks/native" name="frameworks_native" remote="du" revision="du44" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="du" revision="du44" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="du" revision="du44" />
 
   <!--hardware-->
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="du44" />
