@@ -454,6 +454,7 @@
   <project path="packages/apps/OmniTorch" name="packages_apps_OmniTorch" remote="du" revision="du44" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
+  <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="du" revision="du44" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="du" revision="du44" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="du" revision="du44" />
