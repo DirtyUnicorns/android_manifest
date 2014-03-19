@@ -367,7 +367,6 @@
 
   <!--OmniROM repos-->
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
-  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.4" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-4.4" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" revision="android-4.4" />
@@ -398,6 +397,7 @@
   </project>
   <project path="bionic" name="android_bionic" remote="du" revision="du44" />
   <project path="bootable/recovery" name="bootable_recovery" remote="du" revision="du44"/>
+  <project path="dalvik" name="android_dalvik" remote="du" revision="du44" />
   <project path="development" name="development" remote="du" revision="du44" />
   <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
   <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
