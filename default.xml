@@ -389,6 +389,7 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" revision="android-4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" revision="android-4.4" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-4.4" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4" />
 
   <!--DU repos-->
   <!--misc-->
@@ -396,7 +397,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="du" revision="du44" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="du" revision="du44"/>
   <project path="dalvik" name="android_dalvik" remote="du" revision="du44" />
   <project path="development" name="development" remote="du" revision="du44" />
   <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
