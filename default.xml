@@ -75,7 +75,6 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
@@ -182,7 +181,6 @@
   <project path="external/opencv" name="platform/external/opencv" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/openssh" name="platform/external/openssh" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/pixman" name="platform/external/pixman" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" revision="refs/tags/android-4.4.2_r2" remote="aosp" />
@@ -404,6 +402,8 @@
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
+  <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
   <project path="libcore" name="libcore" remote="du" revision="du44" />
   <project path="system/core" name="system_core" remote="du" revision="du44" />
