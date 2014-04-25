@@ -2,15 +2,15 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" 
+           fetch="https://github.com/"
            review="gerrit.dirtyunicorns.com" />
-           
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
   <remote  name="du"
-           fetch="https://github.com/DirtyUnicorns-KitKat/" 
+           fetch="https://github.com/DirtyUnicorns-KitKat/"
            review="gerrit.dirtyunicorns.com" />
 
   <remote  name="omnirom"
@@ -399,7 +399,6 @@
   <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
   <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
