@@ -17,6 +17,9 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+  <remote  name="savoca"
+	   fetch="https://github.com/savoca" />
+
   <default revision="du44"
            remote="du"
            sync-c="true"
