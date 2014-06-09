@@ -247,7 +247,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/volley" name="platform/frameworks/volley" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="hardware/akm" name="platform/hardware/akm" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
@@ -372,7 +371,6 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-4.4" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="omnirom" revision="android-4.4" />
-  <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" revision="android-4.4" />
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-4.4" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-4.4" />
   <project path="external/icu4c" name="android_external_icu4c" remote="omnirom" revision="android-4.4" />
@@ -403,6 +401,7 @@
   <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
   <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
+  <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
@@ -417,6 +416,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="du" revision="du44" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="du" revision="du44" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="du" revision="du44" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="du" revision="du44" />
 
   <!--hardware-->
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="du44" />
