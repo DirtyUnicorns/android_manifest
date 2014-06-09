@@ -282,7 +282,6 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
