@@ -234,7 +234,6 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
@@ -414,6 +413,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="du" revision="du44" />
   <project path="frameworks/base" name="frameworks_base" remote="du" revision="du44" />
   <project path="frameworks/native" name="frameworks_native" remote="du" revision="du44" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="du" revision="du44" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="du" revision="du44" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="du" revision="du44" />
   <project path="frameworks/webview" name="frameworks_webview" remote="du" revision="du44" />
