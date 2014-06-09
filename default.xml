@@ -264,7 +264,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="ndk" name="platform/ndk" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="refs/tags/android-4.4.3_r1.1" remote="aosp" />
@@ -436,6 +435,7 @@
   <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="du" revision="du44" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="du" revision="du44" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="du" revision="du44" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="du" revision="du44" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="du" revision="du44" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="du" revision="du44" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="du" revision="du44" />
