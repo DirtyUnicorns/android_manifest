@@ -366,7 +366,6 @@
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.4" />
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-4.4" />
-  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="omnirom" revision="android-4.4" />
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-4.4" />
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-4.4" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-4.4" />
@@ -400,6 +399,7 @@
   <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="du44" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
