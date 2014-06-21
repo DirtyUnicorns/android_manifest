@@ -198,7 +198,6 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
-  <project path="external/skia" name="platform/external/skia" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/smack" name="platform/external/smack" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
@@ -396,6 +395,7 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
+  <project path="external/skia" name="external_skia" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
   <project path="libcore" name="libcore" remote="du" revision="du44" />
   <project path="system/core" name="system_core" remote="du" revision="du44" />
