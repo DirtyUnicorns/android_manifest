@@ -273,7 +273,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
@@ -455,6 +454,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="du" revision="du44" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="du" revision="du44" />
   <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="du" revision="du44" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="du" revision="du44"/>
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
