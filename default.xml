@@ -129,7 +129,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/jsilver" name="platform/external/jsilver" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/jsr305" name="platform/external/jsr305" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
@@ -249,9 +248,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="refs/tags/android-4.4.4_r1" remote="aosp" />
@@ -393,6 +390,7 @@
   <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="du44" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="du44" />
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
   <project path="external/skia" name="external_skia" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
@@ -418,8 +416,10 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="du44" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="du44" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="du" revision="du44" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="du44" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="du44" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="du" revision="du44" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="du44" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="du44" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="du" revision="du44" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="du44" />
