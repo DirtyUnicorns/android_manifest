@@ -451,7 +451,6 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="du" revision="du44" />
   <project path="packages/apps/OmniTorch" name="packages_apps_OmniTorch" remote="du" revision="du44" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="du" revision="du44" />
-  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="du" revision="du44" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="du" revision="du44" />
   <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="du" revision="du44" />
