@@ -146,8 +146,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/libppp" name="platform/external/libppp" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
@@ -390,6 +388,8 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
   <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="du44" />
+  <project path="external/libselinux" name="android_external_libselinux" remote="du" revision="du44" />
+  <project path="external/libsepol" name="android_external_libsepol" remote="du" revision="du44" />
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="du44" />
   <project path="external/skia" name="external_skia" remote="du" revision="du44" />
