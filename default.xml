@@ -207,7 +207,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
@@ -393,6 +392,7 @@
   <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="du44" />
   <project path="external/skia" name="external_skia" remote="du" revision="du44" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="du44" />
   <project path="manifest" name="manifest" remote="du" revision="du44" />
   <project path="libcore" name="libcore" remote="du" revision="du44" />
   <project path="system/core" name="system_core" remote="du" revision="du44" />
