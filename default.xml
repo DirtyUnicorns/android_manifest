@@ -386,6 +386,7 @@
   <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="du44" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
+  <project path="external/qrngd" name="external_qrngd" remote="du" revision="du44" />
   <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="du44" />
   <project path="external/libselinux" name="android_external_libselinux" remote="du" revision="du44" />
   <project path="external/libsepol" name="android_external_libsepol" remote="du" revision="du44" />
