@@ -354,7 +354,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
 
   <!--OmniROM repos-->
-  <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-4.4" />
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-4.4" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-4.4" />
@@ -375,6 +374,7 @@
    <project path="build" name="build" remote="du" revision="du-44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="android_art" remote="du" revision="du44" />
   <project path="bionic" name="android_bionic" remote="du" revision="du44" />
   <project path="dalvik" name="android_dalvik" remote="du" revision="du44" />
   <project path="development" name="development" remote="du" revision="du44" />
