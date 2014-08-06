@@ -28,21 +28,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="cts" name="platform/cts" groups="cts" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="developers/build" name="platform/developers/build" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="developers/demos" name="platform/developers/demos" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="developers/docs" name="platform/developers/docs" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="device/common" name="device/common" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="device/sample" name="device/sample" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/android-mock" name="platform/external/android-mock" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
