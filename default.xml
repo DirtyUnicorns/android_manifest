@@ -434,6 +434,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="du" revision="du44" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="du" revision="du44" />
   <project path="packages/apps/DU_about" name="packages_apps_DU_about" remote="du" revision="du44" />
+  <project path="packages/apps/DU_notepad" name="packages_apps_DU_notepad" remote="du" revision="du44" />
   <project path="packages/apps/DU_walls" name="packages_apps_DU_walls" remote="du" revision="du44" />
   <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="du" revision="du44" />
