@@ -1,40 +1,58 @@
-Get Repo
----------------------------------------
-
-    mkdir ~/bin
-    PATH=~/bin:$PATH
-    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-    chmod a+x ~/bin/repo
-
-Syncing the DU Source
----------------------------------------
-
-    mkdir ~/du
-    cd ~/du
-    repo init -u https://github.com/DirtyUnicorns-KitKat/manifest.git -b du44
-    repo sync -f -j 4 | 8 | 16 | 24 | 32
-
+To setup your build enivornment and sync DU, please follow this guide
+http://therealmofu.com/wp/?p=373
 
 Submitting Patches
 ------------------
-We are a open source project that lives because of contributions of the Android community.
+DU is an open source project that lives because of contributions of the Android community.
 
 With that said, patches are always welcome!
 
-You can send patches by using these commands:
+To start contributing to DU, just register at gerrit.dirtyunicorns.com
 
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.dirtyunicorns.com:29418/<project> HEAD:refs/for/<branch>
+Open up a terminal to create your keys and type in
 
-Register at gerrit.dirtyunicorns.com and use the username that you registered there in the above command
+    git config --global gerrit.dirtyunicorns.com.username <username you registered with>
 
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+    git config --global gerrit.dirtyunicorns.com.email <your email you registered with>
+
+    ssh-keygen -t rsa -C "your@email.com"
+
+Go to http://gerrit.dirtyunicorns.com and click on your avatar on the top right, click on Settings
+
+Click on SSH Public Keys on the left hand side and click on "Add Key ..."
+
+Now on your computer navigate to home/.ssh and open up id_rsa.pub and copy/paste the context to Gerrit under SSH Public Keys
+
+You can send patches to us by using these commands in terminal:
+
+    cd project i.e cd packages/apps/Settings
+
+    Make whatever edits you need to.....
+
+    git add -a
+    git commit -a
+
+    Add commit message that makes sense for others to understand what the commit is for
+
+    Ctrl X, then Y to save and Enter
+
+    git push ssh://GERRIT-USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT-NAME HEAD:refs/for/BRANCH
+
+    BRANCH - du44
+    PROJECT-NAME - i.e packages_apps_Settings
+    GERRIT-USERNAME - i.e Mazda
 
 If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
 use git commit --amend. Gerrit will recognize it as a new patchset.
+
+For more information on how to push to a gerrit, please read the following
+https://wiki.mahara.org/index.php/Developer_Area/Pushing_Git_Commits
+
+Also to make this even easier, you can use a universal gerrit script provided by PAC found here
+http://forum.xda-developers.com/showthread.php?t=2530388
+
+If you still can not figure it out, don't hesitate to contact us in our G+ community found here
+https://plus.google.com/u/0/communities/109738128866939227235
 
 Thank you,
 DU Team
