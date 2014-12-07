@@ -498,7 +498,8 @@
 
   <!--packages-->
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="du" revision="lollipop" />
-
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="lollipop" />
+  
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" />
   <project path="vendor/asus" name="android_vendor_asus" remote="du" revision="lollipop" />
