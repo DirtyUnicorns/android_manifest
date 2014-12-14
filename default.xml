@@ -497,5 +497,6 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="du" revision="lollipop" />
   <project path="vendor/motorola" name="android_vendor_motorola" remote="du" revision="lollipop" />
   <project path="vendor/lge" name="android_vendor_lge" remote="du" revision="lollipop" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="du" revision="lollipop" />
 
 </manifest>
