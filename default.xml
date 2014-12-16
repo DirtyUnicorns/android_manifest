@@ -489,8 +489,8 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="du" revision="lollipop" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="du" revision="lollipop" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="lollipop" />
-  <project path="packages/apps/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="lollipop" />
-  <project path="packages/apps/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="du" revision="lollipop" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="lollipop" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="du" revision="lollipop" />
 
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" />
