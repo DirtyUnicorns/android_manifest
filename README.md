@@ -1,4 +1,4 @@
-# Dirty Unicorns #
+# Dirty Unicorns (CAF) #
 
 ## Setup your build enivornment & sync our source ##
 
@@ -44,7 +44,7 @@ Ctrl X, then Y to save and Enter
 
 git push ssh://USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT HEAD:refs/for/BRANCH
 
-BRANCH - lollipop
+BRANCH - lollipop-caf
 PROJECT - i.e packages_apps_Settings
 USERNAME (for gerrit) - i.e Mazda
 ```
