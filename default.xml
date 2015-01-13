@@ -429,8 +429,8 @@
   <project path="art" name="android_art" remote="du" revision="lollipop"  />
   <project path="bionic" name="android_bionic" remote="du" revision="lollipop" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="lollipop" />
-   <project path="crowdin" name="crowdin" remote="du" revision="master" >
-    <copyfile src="crowdin/crowdin_sync.py" dest="crowdin_sync.py" />
+   <project path="crowdin" name="crowdin" remote="du" revision="lollipop" >
+    <copyfile src="crowdin_sync.py" dest="crowdin_sync.py" />
   </project>
   <project path="development" name="android_development" remote="du" revision="lollipop" />
   <project path="external/aac" name="android_external_aac" remote="du" revision="lollipop" />
