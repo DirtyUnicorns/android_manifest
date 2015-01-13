@@ -334,9 +334,7 @@
   <project path="build" name="android_build" remote="du" revision="lollipop-caf" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> 
-   <project path="crowdin" name="crowdin" remote="du" revision="lollipop-caf" >
-    <copyfile src="crowdin_sync.py" dest="crowdin_sync.py" />
-  </project>
+  <project path="crowdin" name="crowdin" remote="du" revision="lollipop-caf" />
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="device/common" name="android_device_common" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" revision="lollipop-caf" />
