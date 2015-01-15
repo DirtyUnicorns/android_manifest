@@ -30,11 +30,11 @@
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
+  <project path="device/generic/mini-emulator-arm64" name="android_device_generic_mini-emulator-arm64" remote="du" revision="lollipop" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="du" revision="lollipop" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
+  <project path="device/generic/mini-emulator-mips" name="android_device_generic_mini-emulator-mips" remote="du" revision="lollipop" groups="pdk" />
+  <project path="device/generic/mini-emulator-x86" name="android_device_generic_mini-emulator-x86" remote="du" revision="lollipop" groups="pdk" />
+  <project path="device/generic/mini-emulator-x86_64" name="android_device_generic_mini-emulator-x86_64" remote="du" revision="lollipop" groups="pdk" />
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
