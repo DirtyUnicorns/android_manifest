@@ -241,7 +241,6 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -515,6 +514,7 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="du" revision="lollipop-caf" />
+  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="du" revision="lollipop-caf" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="lollipop-caf" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="du" revision="lollipop-caf" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="lollipop-caf" />
