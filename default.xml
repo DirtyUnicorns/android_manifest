@@ -227,7 +227,6 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -488,6 +487,7 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="du" revision="lollipop-caf" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/CalendarWidget" name="android_packages_apps_CalendarWidget" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" revision="lollipop-caf" />
