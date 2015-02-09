@@ -277,7 +277,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
@@ -459,6 +458,7 @@
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="lollipop" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="lollipop" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="du" revision="lollipop" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="du" revision="lollipop" />
 
   <!--hardware-->  
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="lollipop" />
