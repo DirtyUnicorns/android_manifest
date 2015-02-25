@@ -10,7 +10,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="du"
-           fetch="https://github.com/DirtyUnicorns-KitKat/"
+           fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
   <remote  name="omnirom"
@@ -21,7 +21,7 @@
            review="review.cyanogenmod.org"
            fetch="https://github.com/CyanogenMod" />
 
-  <default revision="du44"
+  <default revision="kitkat"
            remote="du"
            sync-c="true"
            sync-f="true"
@@ -92,7 +92,7 @@
   <project path="external/esd" name="platform/external/esd" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" revision="du44" remote="du" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" revision="kitkat" remote="du" />
   <project path="external/fdlibm" name="platform/external/fdlibm" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="refs/tags/android-4.4.4_r2" remote="aosp" />
@@ -364,104 +364,100 @@
 
   <!--DU repos-->
   <!--misc-->
-   <project path="build" name="build" remote="du" revision="du-44" >
+   <project path="build" name="android_build" remote="du" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="android_art" remote="du" revision="du44" />
-  <project path="bionic" name="android_bionic" remote="du" revision="du44" />
-  <project path="dalvik" name="android_dalvik" remote="du" revision="du44" />
-  <project path="development" name="development" remote="du" revision="du44" />
-  <project path="device/generic/x86" name="device_generic_x86" remote="du" revision="du44" />
-  <project path="device/generic/mips" name="device_generic_mips" remote="du" revision="du44" />
-  <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="du" revision="du44" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="du" revision="du44" />
-  <project path="external/busybox" name="external_busybox" remote="du" revision="du44" />
-  <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="du44" />
-  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="du44" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="du" revision="du44" />
-  <project path="external/qrngd" name="external_qrngd" remote="du" revision="du44" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="du44" />
-  <project path="external/libselinux" name="android_external_libselinux" remote="du" revision="du44" />
-  <project path="external/libsepol" name="android_external_libsepol" remote="du" revision="du44" />
-  <project path="external/openssl" name="android_external_openssl" remote="du" revision="du44" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="du44" />
-  <project path="external/skia" name="external_skia" remote="du" revision="du44" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="du44" />
-  <project path="manifest" name="manifest" remote="du" revision="du44" />
-  <project path="libcore" name="libcore" remote="du" revision="du44" />
-  <project path="system/core" name="system_core" remote="du" revision="du44" />
-  <project path="system/extras" name="system_extras" remote="du" revision="du44" />
-  <project path="system/media" name="system_media" remote="du" revision="du44" />
-  <project path="system/vold" name="system_vold" remote="du" revision="du44" />
+  <project path="art" name="android_art" remote="du" revision="kitkat" />
+  <project path="bionic" name="android_bionic" remote="du" revision="kitkat" />
+  <project path="dalvik" name="android_dalvik" remote="du" revision="kitkat" />
+  <project path="development" name="android_development" remote="du" revision="kitkat" />
+  <project path="device/generic/x86" name="android_device_generic_x86" remote="du" revision="kitkat" />
+  <project path="device/generic/mips" name="android_device_generic_mips" remote="du" revision="kitkat" />
+  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" remote="du" revision="kitkat" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="du" revision="kitkat" />
+  <project path="external/busybox" name="android_external_busybox" remote="du" revision="kitkat" />
+  <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="kitkat" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="du" revision="kitkat" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="du" revision="kitkat" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="du" revision="kitkat" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="kitkat" />
+  <project path="external/libselinux" name="android_external_libselinux" remote="du" revision="kitkat" />
+  <project path="external/libsepol" name="android_external_libsepol" remote="du" revision="kitkat" />
+  <project path="external/openssl" name="android_external_openssl" remote="du" revision="kitkat" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="kitkat" />
+  <project path="external/skia" name="android_external_skia" remote="du" revision="kitkat" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="kitkat" />
+  <project path="manifest" name="android_manifest" remote="du" revision="kitkat" />
+  <project path="libcore" name="android_libcore" remote="du" revision="kitkat" />
+  <project path="system/core" name="android_system_core" remote="du" revision="kitkat" />
+  <project path="system/extras" name="android_system_extras" remote="du" revision="kitkat" />
+  <project path="system/media" name="android_system_media" remote="du" revision="kitkat" />
+  <project path="system/vold" name="android_system_vold" remote="du" revision="kitkat" />
 
   <!--frameworks-->
-  <project path="frameworks/av" name="frameworks_av" remote="du" revision="du44" />
-  <project path="frameworks/base" name="frameworks_base" remote="du" revision="du44" />
-  <project path="frameworks/native" name="frameworks_native" remote="du" revision="du44" />
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="du" revision="du44" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="du" revision="du44" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="du" revision="du44" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="du" revision="du44" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="kitkat" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="kitkat" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="kitkat" />
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="kitkat" />
+  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="kitkat" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="du" revision="kitkat" />
 
   <!--hardware-->
-  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="du44" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="du44" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="du44" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="du44" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="du44" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="du" revision="du44" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="du44" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="du44" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="du" revision="du44" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="du44" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="du44" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="du" revision="du44" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="du44" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="du44" />
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="du" revision="du44" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="kitkat" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="kitkat" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="kitkat" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="kitkat" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="kitkat" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="du" revision="kitkat" />
 
   <!--packages-->
-  <project path="packages/apps/Apollo" name="packages_apps_Apollo" remote="du" revision="du44" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="du" revision="du44" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="du" revision="du44" />
-  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="du" revision="du44" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="du" revision="du44" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="du" revision="du44" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="du" revision="du44" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="du" revision="du44" />
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="du" revision="du44" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="du" revision="du44" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="du" revision="du44" />
-  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="du" revision="du44" />
-  <project path="packages/apps/DU_about" name="packages_apps_DU_about" remote="du" revision="du44" />
-  <project path="packages/apps/DU_notepad" name="packages_apps_DU_notepad" remote="du" revision="du44" />
-  <project path="packages/apps/DU_walls" name="packages_apps_DU_walls" remote="du" revision="du44" />
-  <project path="packages/apps/DU_changelog" name="packages_apps_DU_changelog" remote="du" revision="du44" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="du" revision="du44" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="du" revision="du44" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="du" revision="du44" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="du" revision="du44" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="du" revision="du44" />
-  <project path="packages/apps/MonthCalendarWidget" name="packages_apps_MonthCalendarWidget" remote="du" revision="du44" />
-  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="du" revision="du44" />
-  <project path="packages/apps/OmniTorch" name="packages_apps_OmniTorch" remote="du" revision="du44" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="du" revision="du44" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="du" revision="du44" />
-  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="du" revision="du44" />
-  <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="du" revision="du44" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="du" revision="du44"/>
-  <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="du" revision="du44" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="du" revision="du44" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="du" revision="du44" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="du" revision="du44" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="du" revision="du44" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="du" revision="du44" />
-  <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="du" revision="du44"/>
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="du" revision="du44" />
-  <project path="packages/wallpapers/Basic" name="packages_wallpapers_Basic" remote="du" revision="du44" />
-  <project path="packages/wallpapers/PhaseBeam" name="packages_wallpapers_PhaseBeam" remote="du" revision="du44" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="du" revision="kitkat" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="kitkat" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="du" revision="kitkat" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="du" revision="kitkat" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="du" revision="kitkat" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" revision="kitkat" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" revision="kitkat" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="du" revision="kitkat" />
+  <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="du" revision="kitkat" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" revision="kitkat" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" revision="kitkat" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="du" revision="kitkat" />
+  <project path="packages/apps/DU_changelog" name="android_packages_apps_DU-Changelog" remote="du" revision="kitkat" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="du" revision="kitkat" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" revision="kitkat" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="du" revision="kitkat" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="kitkat" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="du" revision="kitkat" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="du" revision="kitkat" />
+  <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="du" revision="kitkat" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="kitkat" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="kitkat" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="du" revision="kitkat" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="du" revision="kitkat" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="kitkat"/>
+  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="du" revision="kitkat" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="kitkat" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="du" revision="kitkat" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="kitkat" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="du" revision="kitkat" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="du" revision="kitkat"/>
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="kitkat" />
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="du" revision="kitkat" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="du" revision="kitkat" />
 
   <!--vendors-->
-  <project path="vendor/du" name="vendor_du" remote="du" revision="du44" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="kitkat" />
 
 </manifest>
