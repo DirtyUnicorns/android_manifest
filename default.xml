@@ -443,7 +443,6 @@
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="du" revision="kitkat" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="kitkat" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="kitkat" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="du" revision="kitkat" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="du" revision="kitkat" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="kitkat"/>
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="du" revision="kitkat" />
