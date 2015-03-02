@@ -2,7 +2,7 @@
 
 ## Setup your build enivornment & sync our source ##
 
-To setup your build enivornment and sync DU, please follow this guide [HERE](http://therealmofu.com/wp/?p=373)
+To setup your build enivornment and sync DU, please follow this guide [HERE](http://forum.xda-developers.com/chef-central/android/tutorial-compile-lollipop-ubuntu-t2929410)
 
 ## Submitting Patches ##
 
