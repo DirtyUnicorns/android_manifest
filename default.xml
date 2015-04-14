@@ -510,7 +510,6 @@
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="du" revision="lollipop" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="lollipop" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="lollipop" />
-  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="du" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="lollipop" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="lollipop" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="lollipop" />
