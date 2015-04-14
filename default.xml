@@ -484,15 +484,18 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="du" revision="lollipop-caf" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="du" revision="lollipop-caf" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="du" revision="lollipop-caf" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="du" revision="lollipop-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="du" revision="lollipop-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="du" revision="lollipop-caf-8974" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="du" revision="lollipop-caf" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="du" revision="lollipop-caf" />
+  <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="du" revision="lollipop-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="du" revision="lollipop-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="du" revision="lollipop-caf-8974" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="du" revision="lollipop-caf" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="du" revision="lollipop-caf" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="du" revision="lollipop-caf" />
+  <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" groups="qcom" remote="du" revision="lollipop-caf-8226" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="du" revision="lollipop-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="du" revision="lollipop-caf-8974" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom" remote="du" revision="lollipop-caf" />
