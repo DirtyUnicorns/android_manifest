@@ -311,7 +311,6 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -520,6 +519,7 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="du" revision="lollipop-caf" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="lollipop-caf"/>
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="lollipop-caf" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="du" revision="lollipop-caf" />
