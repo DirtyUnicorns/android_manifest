@@ -467,6 +467,7 @@
   <project path="frameworks/ex" name="android_frameworks_ex" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
+  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="du" revision="lollipop-caf" />
