@@ -12,6 +12,9 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom/" />
+
   <default revision="refs/tags/android-5.1.1_r3"
            remote="aosp"
            sync-c="true"
@@ -536,8 +539,10 @@
   <project path="packages/services/Mms" name="android_packages_services_Mms" remote="du" revision="lollipop-caf" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="lollipop-caf" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="lollipop-caf" />
-  
+
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop-caf" />
 
+  <!--Omni-->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-5.1" />
 </manifest>
