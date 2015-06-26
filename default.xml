@@ -15,7 +15,7 @@
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />
 
-  <default revision="refs/tags/android-5.1.1_r3"
+  <default revision="refs/tags/android-5.1.1_r5"
            remote="aosp"
            sync-c="true"
            sync-f="true"
