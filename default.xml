@@ -271,7 +271,6 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
@@ -474,6 +473,7 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="du" revision="lollipop-caf" />
+  <project path="frameworks/webview" name="android_frameworks_webview" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
 
   <!--hardware-->
