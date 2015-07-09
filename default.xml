@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://github.com/" 
+           review="gerrit.dirtyunicorns.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
