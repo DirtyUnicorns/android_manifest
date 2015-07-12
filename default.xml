@@ -269,9 +269,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" remote="aosp" />
@@ -464,6 +462,8 @@
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
 
   <!--hardware-->  
