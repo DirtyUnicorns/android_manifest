@@ -402,6 +402,7 @@
   </project>
   <project path="art" name="android_art" groups="pdk" />
   <project path="bionic" name="android_bionic" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" />
   <project path="device/generic/mini-emulator-arm64" name="android_device_generic_mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/generic/mini-emulator-mips" name="android_device_generic_mini-emulator-mips" groups="pdk" />
@@ -545,5 +546,5 @@
   <project path="vendor/du" name="android_vendor_du" />
 
   <!--Omni-->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-5.1" />
+  <project path="bootable/twrp" name="android_bootable_recovery" remote="omni" revision="android-5.1" />
 </manifest>
