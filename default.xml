@@ -6,16 +6,16 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" 
-           revision="refs/tags/android-5.1.1_r9" />
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-5.1.1_r18" />
 
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
   <remote  name="omni"
-           fetch="https://github.com/omnirom/" 
-		   revision="android-5.1" />
+           fetch="https://github.com/omnirom/"
+           revision="android-5.1" />
 
   <default revision="lollipop"
            remote="du"
