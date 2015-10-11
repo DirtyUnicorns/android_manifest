@@ -21,8 +21,6 @@
            
   <!--AOSP REPOS-->           
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -30,7 +28,6 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -240,8 +237,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -250,36 +245,27 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -295,30 +281,16 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -432,14 +404,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -461,12 +428,47 @@
    <project path="build" name="android_build" remote="du" revision="m" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="android_art"  remote="du" revision="m" /> 
+  <project path="bionic" name="android_bionic" remote="du" revision="m" /> 
+  <project path="development" name="android_development" remote="du" revision="m" /> 
+  <project path="libcore" name="android_libcore" remote="du" revision="m" /> 
+  <project path="system/core" name="android_system_core" remote="du" revision="m" /> 
+  <project path="system/extras" name="android_system_extras" remote="du" revision="m" /> 
+  <project path="system/media" name="android_system_media" remote="du" revision="m" /> 
+  <project path="system/netd" name="android_system_netd" remote="du" revision="m" /> 
+  <project path="system/vold" name="android_system_vold" remote="du" revision="m" /> 
+
+  <!--frameworks-->  
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="m" /> 
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="m" /> 
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m" /> 
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="m" /> 
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="m" /> 
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="du" revision="m" /> 
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="m" /> 
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="m" /> 
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="du" revision="m" /> 
+
+  <!--hardware-->  
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="m" /> 
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="m" /> 
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="m" /> 
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="m" /> 
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="m" /> 
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="m" /> 
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="m" /> 
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="m" /> 
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="m" /> 
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="m" /> 
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="m" /> 
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="m" /> 
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="m" /> 
+  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="m" /> 
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="du" revision="m" /> 
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="du" revision="m" />   
   
   <!-- toolchain -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="android-prebuilts-gcc-linux-x86-arm-arm-eabi-4.9" remote="du" revision="m" />
-  
-  <!-- hardware -->
-  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="m" /> 
   
   <!-- vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="m" /> 
