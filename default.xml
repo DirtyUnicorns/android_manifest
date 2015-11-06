@@ -13,10 +13,6 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
-  <remote  name="omni"
-           fetch="https://github.com/omnirom/"
-           revision="android-5.1" />
-
   <default revision="lollipop"
            remote="du"
            sync-c="true"
@@ -423,6 +419,7 @@
   </project>
   <project path="art" name="android_art"  />
   <project path="bionic" name="android_bionic" />
+  <project path="bootable/recovery" name="android_bootable_recovery_twrp" />
   <project path="crowdin" name="crowdin" />
   <project path="development" name="android_development" />
   <project path="device/generic/mini-emulator-arm64" name="android_device_generic_mini-emulator-arm64" groups="pdk" />
@@ -530,7 +527,4 @@
   <project path="vendor/motorola" name="android_vendor_motorola" />
   <project path="vendor/lge" name="android_vendor_lge" />
   <project path="vendor/samsung" name="android_vendor_samsung" />
-
-  <!--Omni-->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" />
 </manifest>
