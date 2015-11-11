@@ -458,9 +458,10 @@
  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="du" revision="m" />
  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="m" />
  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" revision="m" />
+ <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="du" revision="m" />
  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="m" />
  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="m" />
-  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="m" />
+ <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="m" />
  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="m" />
  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="du" revision="m" />
  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="m" />
