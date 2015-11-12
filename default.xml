@@ -476,6 +476,7 @@
  <!-- vendor -->
  <project path="vendor/du" name="android_vendor_du" remote="du" revision="m" />
  <project path="vendor/asus" name="android_vendor_asus" remote="du" revision="m" />
+ <project path="vendor/huawei" name="android_vendor_huawei" remote="du" revision="m" />
  <project path="vendor/lge" name="android_vendor_lge" remote="du" revision="m" />
  <project path="vendor/motorola" name="android_vendor_motorola" remote="du" revision="m" />
 
