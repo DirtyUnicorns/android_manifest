@@ -44,7 +44,7 @@ Ctrl X, then Y to save and Enter
 
 git push ssh://USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT HEAD:refs/for/BRANCH
 
-BRANCH - lollipop-caf
+BRANCH - m-caf
 PROJECT - i.e packages_apps_Settings
 USERNAME (for gerrit) - i.e Mazda
 ```
