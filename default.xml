@@ -128,7 +128,6 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -404,6 +403,7 @@
   <project path="external/iptables" name="android_external_iptables" revision="m-caf" remote="du" />
   <project path="external/jpeg" name="android_external_jpeg" revision="m-caf" remote="du" />
   <project path="external/libcxx" name="android_external_libcxx" revision="m-caf" remote="du" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" revision="m-caf" remote="du" />
   <project path="external/okhttp" name="android_external_okhttp" revision="m-caf" remote="du" />
   <project path="external/skia" name="android_external_skia" revision="m-caf" remote="du" />
   <project path="external/sonivox" name="android_external_sonivox" revision="m-caf" remote="du" />
