@@ -372,7 +372,6 @@
  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
- <project path="system/bt" name="platform/system/bt" groups="pdk" />
  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
  <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -403,6 +402,7 @@
  <project path="external/busybox" name="android_external_busybox" remote="du" revision="m" />
  <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="m" />
  <project path="libcore" name="android_libcore" remote="du" revision="m" />
+ <project path="system/bt" name="android_system_bt" remote="du" revision="m" />
  <project path="system/core" name="android_system_core" remote="du" revision="m" />
  <project path="system/extras" name="android_system_extras" remote="du" revision="m" />
  <project path="system/media" name="android_system_media" remote="du" revision="m" />
