@@ -399,6 +399,8 @@
  <project path="art" name="android_art" remote="du" revision="m" />
  <project path="bionic" name="android_bionic" remote="du" revision="m" />
  <project path="development" name="android_development" remote="du" revision="m" />
+ <project path="external/android-visualizer" name="android_external_android-visualizer" remote="du" revision="m" />
+ <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="m" />
  <project path="external/busybox" name="android_external_busybox" remote="du" revision="m" />
  <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="m" />
  <project path="libcore" name="android_libcore" remote="du" revision="m" />
