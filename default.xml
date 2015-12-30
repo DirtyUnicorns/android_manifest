@@ -28,7 +28,6 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -269,8 +268,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
@@ -280,9 +277,7 @@
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -380,6 +375,7 @@
 
   <project path="art" name="android_art" revision="m-caf" remote="du" />
   <project path="bionic" name="android_bionic" revision="m-caf" remote="du" />
+  <project path="development" name="android_development" remote="du" revision="m-caf" />
   <project path="libcore" name="android_libcore" revision="m-caf" remote="du" />
 
   <!-- device -->
@@ -453,19 +449,32 @@
 
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" revision="m-caf" remote="du" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="du" revision="m-caf" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="du" revision="m-caf" />
+  <project path="packages/apps/CalendarWidget" name="android_packages_apps_CalendarWidget" remote="du" revision="m-caf" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" revision="m-caf" remote="du" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" revision="m-caf" remote="du" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" revision="m-caf" remote="du" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" revision="m-caf" remote="du" />
+  <project path="packages/apps/DU-About" name="android_packages_apps_DU-About" remote="du" revision="m-caf" />
+  <project path="packages/apps/DU-Changelog" name="android_packages_apps_DU-Changelog" remote="du" revision="m-caf" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" revision="m-caf" />
+  <project path="packages/apps/DU-Updater" name="android_packages_apps_DU-Updater" remote="du" revision="m-caf" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" revision="m-caf" remote="du" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" revision="m-caf" remote="du" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" revision="m-caf" remote="du" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="m-caf" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="du" revision="m-caf" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" revision="m-caf" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="du" revision="m-caf" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" revision="m-caf" remote="du" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="m-caf" remote="du" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" revision="m-caf" remote="du" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" revision="m-caf" remote="du" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="du" revision="m-caf" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" revision="m-caf" remote="du" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" revision="m-caf" remote="du" />
+  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="du" revision="m-caf" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" revision="m-caf" remote="du" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" revision="m-caf" remote="du" />
 
