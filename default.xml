@@ -489,6 +489,7 @@
 
   <!-- vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="m-caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" revision="m-caf" />
   <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="du" revision="m-caf" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="du" revision="m-caf" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="du" revision="m-caf" />
