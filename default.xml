@@ -386,6 +386,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="m-caf" remote="du" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" revision="m-caf" remote="du" />
   <project path="external/busybox" name="android_external_busybox" revision="m-caf" remote="du" />
+  <project path="external/connectivity" name="android_external_connectivity" revision="m-caf" remote="du" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" revision="m-caf" remote="du" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" revision="m-caf" remote="du" />
   <project path="external/iproute2" name="android_external_iproute2" revision="m-caf" remote="du" />
