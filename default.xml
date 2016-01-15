@@ -74,7 +74,6 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -388,6 +387,7 @@
   <project path="external/busybox" name="android_external_busybox" revision="m-caf" remote="du" />
   <project path="external/connectivity" name="android_external_connectivity" revision="m-caf" remote="du" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" revision="m-caf" remote="du" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" revision="m-caf" remote="du" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" revision="m-caf" remote="du" />
   <project path="external/iproute2" name="android_external_iproute2" revision="m-caf" remote="du" />
   <project path="external/iptables" name="android_external_iptables" revision="m-caf" remote="du" />
