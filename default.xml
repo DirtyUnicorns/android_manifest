@@ -483,7 +483,7 @@
  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="m" />
  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="du" revision="m" />
  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="m" />
- <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="m-caf" />
+ <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="m" />
  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="du" revision="m" />
  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="du" revision="m" />
  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="m" />
