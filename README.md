@@ -35,7 +35,7 @@ cd project i.e cd packages/apps/Settings
 
 Make whatever edits you need to.....
 
-git add -a
+git add -A
 git commit -a
 
 Add commit message that makes sense for others to understand what the commit is for
