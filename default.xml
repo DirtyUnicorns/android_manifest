@@ -414,6 +414,7 @@
  <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="m" />
  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="m" />
  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m" />
+ <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="m" />
  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="m" />
  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="m" />
  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="du" revision="m" />
