@@ -378,6 +378,7 @@
  </project>
  <project path="development" name="android_development" remote="du" revision="m" />
  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="du" revision="m" />
+ <project path="external/curl" name="android_external_curl" revision="m-caf" remote="du" />
  <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="m" />
  <project path="external/busybox" name="android_external_busybox" remote="du" revision="m" />
  <project path="external/f2fs-tools" name="android_external_f2fs-tools" revision="m-caf" remote="du" />
