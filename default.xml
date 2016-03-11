@@ -13,7 +13,7 @@
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
 
- <default revision="refs/tags/android-6.0.1_r17"
+ <default revision="refs/tags/android-6.0.1_r22"
           remote="aosp"
           sync-c="true"
           sync-f="true"
@@ -299,7 +299,6 @@
  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
- <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
