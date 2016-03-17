@@ -419,7 +419,6 @@
   <project path="art" name="android_art"  />
   <project path="bionic" name="android_bionic" />
   <project path="bootable/recovery" name="android_bootable_recovery_twrp" />
-  <project path="crowdin" name="crowdin" />
   <project path="development" name="android_development" />
   <project path="device/generic/mini-emulator-arm64" name="android_device_generic_mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" groups="pdk" />
