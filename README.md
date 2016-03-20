@@ -15,9 +15,9 @@ To start contributing to DU, just register at gerrit.dirtyunicorns.com
 Open up a terminal to create your keys and type in
 
 ```bash
-git config --global gerrit.dirtyunicorns.com.username <username you registered with>
+git config --global review.gerrit.dirtyunicorns.com.username <username you registered with>
 
-git config --global gerrit.dirtyunicorns.com.email <your email you registered with>
+git config --global review.gerrit.dirtyunicorns.com.email <your email you registered with>
 
 ssh-keygen -t rsa -C "your@email.com"
 ```
