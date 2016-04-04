@@ -262,20 +262,6 @@
  <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
  <project path="hardware/akm" name="platform/hardware/akm" />
- <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
- <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
- <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
- <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
- <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
- <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
- <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
- <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
- <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
- <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
- <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
- <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
- <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
- <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
  <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
@@ -426,6 +412,20 @@
  <!--hardware-->
  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="m" />
  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="m" />
+ <project path="hardware/intel/audio_media" name="android_hardware_intel_audio_media" remote="du" revision="m-caf" />
+ <project path="hardware/intel/bootstub" name="android_hardware_intel_bootstub" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/bd_prov" name="android_hardware_intel_common_bd_prov" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/libstagefrighthw" name="android_hardware_intel_common_libstagefrighthw" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/libwsbm" name="android_hardware_intel_common_libwsbm" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/utils" name="android_hardware_intel_common_utils" remote="du" revision="m-caf" />
+ <project path="hardware/intel/common/wrs_omxil_core" name="android_hardware_intel_common_wrs_omxil_core" remote="du" revision="m-caf" />
+ <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" remote="du" revision="m-caf" />
+ <project path="hardware/intel/img/psb_headers" name="android_hardware_intel_img_psb_headers" remote="du" revision="m-caf" />
+ <project path="hardware/intel/img/psb_video" name="android_hardware_intel_img_psb_video" remote="du" revision="m-caf" />
+ <project path="hardware/intel/sensors" name="android_hardware_intel_sensors" remote="du" revision="m-caf" />
  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="m-caf" />
  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="m-caf" />
  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" revision="m-caf" remote="du" />
