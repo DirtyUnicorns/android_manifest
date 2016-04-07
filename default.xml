@@ -281,7 +281,6 @@
  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
  <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
- <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
  <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
  <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
  <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
@@ -423,6 +422,7 @@
  <!--hardware-->
  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="m" />
  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="m" />
+ <project path="hardware/invensense" name="android_hardware_invensense" remote="du" revision="m" />
  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="m" />
  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="m" />
  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="m" />
