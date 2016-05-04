@@ -1,28 +1,26 @@
-# Dirty Unicorns (CAF) #
+# Dirty Unicorns #
 
 ## Setup your build enivornment & sync our source ##
 
-To setup your build enivornment and sync DU, please follow this guide [HERE](http://forum.xda-developers.com/chef-central/android/tutorial-compile-lollipop-ubuntu-t2929410)
+To setup your build enivornment and sync DU, please follow this guide [HERE](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Building_AOSP.txt)
 
 ## Submitting Patches ##
 
-DU is an open source project that lives because of contributions of the Android community.
-
-With that said, patches are always welcome!
+Dirty Unicorns is open sourced and welcomes new contributors.
 
 To start contributing to DU, just register at gerrit.dirtyunicorns.com
 
-Open up a terminal to create your keys and type in
+Open up a terminal to create your ssh keys for pushing to gerrit and type in
 
 ```bash
-git config --global gerrit.dirtyunicorns.com.username <username you registered with>
+git config --global review.gerrit.dirtyunicorns.com.username <username you registered with>
 
-git config --global gerrit.dirtyunicorns.com.email <your email you registered with>
+git config --global review.gerrit.dirtyunicorns.com.email <your email you registered with>
 
 ssh-keygen -t rsa -C "your@email.com"
 ```
 
-Go to http://gerrit.dirtyunicorns.com and click on your avatar on the top right, click on Settings
+Go back to our gerrit and click on your avatar on the top right, click on Settings
 
 Click on SSH Public Keys on the left hand side and click on "Add Key ..."
 
@@ -44,7 +42,7 @@ Ctrl X, then Y to save and Enter
 
 git push ssh://USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT HEAD:refs/for/BRANCH
 
-BRANCH - m-caf
+BRANCH - m
 PROJECT - i.e packages_apps_Settings
 USERNAME (for gerrit) - i.e Mazda
 ```
@@ -63,7 +61,7 @@ https://plus.google.com/u/0/communities/109738128866939227235
 
 ## Maintain Authorship ##
 Please make sure if you submit a patch/fix from another ROM that you maintain authorship. This is very important to not only us 
-but the entire open source community. It's what keeps it going and encourages more and more developers to contribute.
+but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
 
 If you manually cherry pick a patch/fix then add the original author prior to pushing to our gerrit. This task is very easy and is
 usually done after you commit a patch/fix locally. i.e once you type in git commit -a and type in the commit message and save, you
