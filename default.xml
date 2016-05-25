@@ -292,6 +292,7 @@
  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
+ <project path="libcore" name="platform/libcore" groups="pdk" />
  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
  <project path="ndk" name="platform/ndk" groups="generic_fs" />
  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -399,7 +400,6 @@
  <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="m" />
  <project path="external/busybox" name="android_external_busybox" remote="du" revision="m" />
  <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="m" />
- <project path="libcore" name="android_libcore" remote="du" revision="m" />
  <project path="system/bt" name="android_system_bt" remote="du" revision="m" />
  <project path="system/core" name="android_system_core" remote="du" revision="m" />
  <project path="system/extras" name="android_system_extras" remote="du" revision="m" />
