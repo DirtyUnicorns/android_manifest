@@ -426,6 +426,7 @@
  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" revision="m-caf-8960" remote="du" />
  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" revision="m-caf-8974" remote="du" />
  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" revision="m-caf-8994" remote="du" />
+ <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="m-caf-8996" remote="du" /> 
  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" revision="m-caf" remote="du" />
  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="m-caf" remote="du" />
  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="m-caf" remote="du" />
@@ -434,6 +435,7 @@
  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" revision="m-caf-8960" remote="du" />
  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" revision="m-caf-8974" remote="du" />
  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" revision="m-caf-8994" remote="du" />
+ <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="m-caf-8996" remote="du" />
  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" revision="m-caf" remote="du" />
  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" revision="m-caf" remote="du" />
  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" revision="m-caf" remote="du" />
@@ -442,6 +444,7 @@
  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" revision="m-caf-8960" remote="du" />
  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" revision="m-caf-8974" remote="du" />
  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" revision="m-caf-8994" remote="du" />
+ <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="m-caf-8996" remote="du" />
  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="m-caf" remote="du" />
  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="m-caf" />
  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="du" revision="m" />
