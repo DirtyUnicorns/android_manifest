@@ -2,7 +2,7 @@
 
 ## Setup your build enivornment & sync our source ##
 
-To setup your build enivornment and sync DU, please follow this guide [HERE](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Building_AOSP.txt)
+To setup your build enivornment and sync DU, please follow this guide [HERE](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt)
 
 ## Submitting Patches ##
 
