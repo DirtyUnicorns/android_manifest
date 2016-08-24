@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="du"
+           fetch="https://github.com/DirtyUnicorns/"
+           review="gerrit.dirtyunicorns.com" />
+
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
 
+  <!--AOSP REPOS-->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
