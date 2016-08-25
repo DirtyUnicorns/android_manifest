@@ -377,38 +377,24 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -529,8 +515,8 @@
   <project path="system/vold" name="android_system_vold" remote="du" revision="n" />
 
   <!--frameworks-->
-  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="n" />
   <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="n" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="n" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="n" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="n" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="n" />
@@ -553,6 +539,20 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n" />
 
   <!--packages-->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="n" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="du" revision="n" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" revision="n" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="du" revision="n" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" revision="n" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="du" revision="n" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" revision="n" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" revision="n" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" revision="n" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="n" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" revision="n" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" revision="n" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="n" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" revision="n" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="n" />
 
 </manifest>
