@@ -19,9 +19,6 @@
            sync-j="8" />
 
   <!--AOSP REPOS-->
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -458,6 +455,9 @@
   <!-- general -->
   <project path="art" name="android_art" remote="du" revision="n" />
   <project path="bionic" name="android_bionic" remote="du" revision="n" />
+  <project path="build" name="android_build" remote="du" revision="n" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="manifest" name="android_manifest" remote="du" revision="n" />
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="n" />
 
