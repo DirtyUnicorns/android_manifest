@@ -500,11 +500,13 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  
+
   <!-- DU REPOS -->
   <!-- general -->
   <project path="art" name="android_art" remote="du" revision="n" />
   <project path="bionic" name="android_bionic" remote="du" revision="n" />
+  <project path="manifest" name="android_manifest" remote="du" revision="n" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="n" />
 
   <!--system-->
   <project path="system/bt" name="android_system_bt" remote="du" revision="n" />
