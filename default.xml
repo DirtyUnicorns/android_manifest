@@ -458,6 +458,7 @@
   <project path="build" name="android_build" remote="du" revision="n" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/kati" name="android_build_kati" remote="du" revision="n" />
   <project path="manifest" name="android_manifest" remote="du" revision="n" />
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="n" />
 
