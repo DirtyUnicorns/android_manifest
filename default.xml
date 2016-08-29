@@ -31,7 +31,6 @@
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -456,6 +455,7 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="android_build_kati" remote="du" revision="n" />
+  <project path="development" name="android_development" remote="du" revision="n" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="n" />
   <project path="libcore" name="android_libcore" remote="du" revision="n" />
   <project path="manifest" name="android_manifest" remote="du" revision="n" />
