@@ -423,7 +423,6 @@
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
@@ -464,6 +463,7 @@
   <project path="system/extras" name="android_system_extras" remote="du" revision="n" />
   <project path="system/media" name="android_system_media" remote="du" revision="n" />
   <project path="system/netd" name="android_system_netd" remote="du" revision="n" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" revision="n" />
   <project path="system/vold" name="android_system_vold" remote="du" revision="n" />
 
   <!--frameworks-->
