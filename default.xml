@@ -12,7 +12,7 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
 
-  <default revision="refs/tags/android-7.0.0_r4"
+  <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-c="true"
            sync-f="true"
