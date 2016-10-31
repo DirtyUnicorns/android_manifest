@@ -438,7 +438,6 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="du" revision="n-caf" />
   <project path="external/ipsec-tools" name="android_external_ipsec-tools" remote="du" revision="n-caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="du" revision="n-caf" />
-  <project path="external/libtar" name="android_external_libtar" remote="du" revision="n-caf" />
   <project path="external/llvm" name="android_external_llvm" remote="du" revision="n" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="n" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="n-caf" />
