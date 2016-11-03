@@ -25,7 +25,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -435,6 +434,7 @@
   <!-- general -->
   <project path="art" name="android_art" remote="du" revision="n" />
   <project path="bionic" name="android_bionic" remote="du" revision="n" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n" >
   <project path="build" name="android_build" remote="du" revision="n" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
