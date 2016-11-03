@@ -430,7 +430,7 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="android_build_kati" remote="du" revision="n" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n-caf" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n" />
   <project path="development" name="android_development" remote="du" revision="n" />
   <project path="external/changeloglib" name="android_external_changeloglib" remote="du" revision="n" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="n" />
