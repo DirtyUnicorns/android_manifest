@@ -19,11 +19,6 @@
            sync-j="8" />
 
   <!--AOSP REPOS-->
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -424,14 +419,23 @@
 
   <!-- DU REPOS -->
   <!-- general -->
-  <project path="art" name="android_art" remote="du" revision="n" />
-  <project path="bionic" name="android_bionic" remote="du" revision="n-caf" />
   <project path="build" name="android_build" remote="du" revision="n-caf" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/blueprint" name="android_build_blueprint" remote="du" revision="n" />
   <project path="build/kati" name="android_build_kati" remote="du" revision="n" />
+  <project path="build/soong" name="android_build_soong" remote="du" revision="n" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="android_art" remote="du" revision="n" />
+  <project path="bionic" name="android_bionic" remote="du" revision="n-caf" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n" />
   <project path="development" name="android_development" remote="du" revision="n" />
+  <project path="libcore" name="android_libcore" remote="du" revision="n" />
+  <project path="manifest" name="android_manifest" remote="du" revision="n-caf" />
+
+  <!-- external -->
   <project path="external/changeloglib" name="android_external_changeloglib" remote="du" revision="n" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="n" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="du" revision="n-caf" />
@@ -446,9 +450,6 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="n-caf" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="n-caf" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" revision="n-caf" />
-  <project path="libcore" name="android_libcore" remote="du" revision="n" />
-  <project path="manifest" name="android_manifest" remote="du" revision="n-caf" />
-  <project path="vendor/du" name="android_vendor_du" remote="du" revision="n" />
 
   <!--toolchains-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="du" revision="n" />
@@ -531,5 +532,8 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" revision="n-caf" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="du" revision="n-caf" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="du" revision="n-caf" />
+
+  <!-- vendor -->
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="n" />
 
 </manifest>
