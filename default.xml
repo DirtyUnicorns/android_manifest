@@ -153,6 +153,7 @@
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -443,7 +444,6 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="du" revision="n-caf" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="du" revision="n-caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="du" revision="n-caf" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="du" revision="n-caf" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="du" revision="n-caf" />
   <project path="external/llvm" name="android_external_llvm" remote="du" revision="n" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="n" />
