@@ -448,7 +448,7 @@
   <project path="external/llvm" name="android_external_llvm" remote="du" revision="n" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="n" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="n-caf" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="n-caf" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="n" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" revision="n-caf" />
 
   <!--toolchains-->
