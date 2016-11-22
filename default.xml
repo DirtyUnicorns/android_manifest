@@ -431,7 +431,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="android_art" remote="du" revision="n" />
-  <project path="bionic" name="android_bionic" remote="du" revision="n-caf" />
+  <project path="bionic" name="android_bionic" remote="du" revision="n" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n" />
   <project path="development" name="android_development" remote="du" revision="n" />
   <project path="libcore" name="android_libcore" remote="du" revision="n" />
