@@ -41,7 +41,7 @@ Ctrl X, then Y to save and Enter
 
 git push ssh://USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT HEAD:refs/for/BRANCH
 
-BRANCH - i.e n
+BRANCH - i.e n7x
 PROJECT - i.e packages_apps_Settings
 USERNAME - i.e Mazda
 ```
