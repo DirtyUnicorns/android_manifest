@@ -434,7 +434,9 @@
   <project path="external/changeloglib" name="android_external_changeloglib" remote="du" revision="n7x" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="n7x" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="du" revision="n7x-caf" />
+  <project path="external/exfat" name="android_external_exfat" remote="du" revision="n7x-caf" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="du" revision="n7x-caf" />
+  <project path="external/fuse" name="android_external_fuse" remote="du" revision="n7x-caf" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="du" revision="n7x-caf" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="du" revision="n7x-caf" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="du" revision="n7x-caf" />
