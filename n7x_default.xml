@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- DU remote -->
+  <remote  name="du"
+           fetch="https://github.com/DirtyUnicorns/"
+           review="gerrit.dirtyunicorns.com" />
+
+
+  <!-- DU REPOS -->
+
+  <!-- general -->
+  <project path="build" name="android_build" remote="du" revision="n7x" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="build/blueprint" name="android_build_blueprint" remote="du" revision="n7x" />
+  <project path="build/kati" name="android_build_kati" remote="du" revision="n7x" />
+  <project path="build/soong" name="android_build_soong" remote="du" revision="n7x" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="android_art" remote="du" revision="n7x" />
+  <project path="bionic" name="android_bionic" remote="du" revision="n7x" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="n7x" />
+  <project path="development" name="android_development" remote="du" revision="n7x" />
+  <project path="libcore" name="android_libcore" remote="du" revision="n7x" />
+  <project path="manifest" name="android_manifest" remote="du" revision="n7x" />
+
+  <!-- external -->
+  <project path="external/changeloglib" name="android_external_changeloglib" remote="du" revision="n7x" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="n7x" />
+  <project path="external/llvm" name="android_external_llvm" remote="du" revision="n7x" />
+  <project path="external/skia" name="android_external_skia" remote="du" revision="n7x" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="n7x" />
+
+  <!-- system -->
+  <project path="system/bt" name="android_system_bt" remote="du" revision="n7x" />
+  <project path="system/core" name="android_system_core" remote="du" revision="n7x" />
+  <project path="system/extras" name="android_system_extras" remote="du" revision="n7x" />
+  <project path="system/media" name="android_system_media" remote="du" revision="n7x" />
+  <project path="system/netd" name="android_system_netd" remote="du" revision="n7x" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" revision="n7x" />
+  <project path="system/vold" name="android_system_vold" remote="du" revision="n7x" />
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="n7x" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="n7x" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="n7x" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="n7x" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="n7x" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="n7x" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="n7x" />
+
+  <!-- hardware -->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="n7x" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="n7x" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="n7x" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="n7x" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="n7x" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="n7x" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="n7x" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="n7x" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="n7x" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="n7x" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="n7x" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="n7x" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="n7x" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="n7x" />
+
+  <!-- packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="n7x" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="du" revision="n7x" />
+  <project path="packages/apps/CalendarWidget" name="android_packages_apps_CalendarWidget" remote="du" revision="n7x" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" revision="n7x" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="du" revision="n7x" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" revision="n7x" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="du" revision="n7x" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" revision="n7x" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" revision="n7x" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" revision="n7x" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" revision="n7x" />
+  <project path="packages/apps/DU-Updater" name="android_packages_apps_DU-Updater" remote="du" revision="n7x" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" revision="n7x" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="n7x" />
+  <project path="packages/apps/Masquerade" name="android_packages_apps_Masquerade" remote="du" revision="n7x" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" revision="n7x" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="du" revision="n7x" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" revision="n7x" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="du" revision="n7x" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="n7x" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" revision="n7x" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="n7x" />
+  <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" remote="du" revision="n7x" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="n7x" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="n7x" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="n7x" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="n7x" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="n7x" />
+
+  <!-- prebuilts and toolchains -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" revision="n7x" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="du" revision="n7x" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="du" revision="n7x" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" revision="n7x" />
+
+  <!-- vendor -->
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="n7x" />
+
+</manifest>
