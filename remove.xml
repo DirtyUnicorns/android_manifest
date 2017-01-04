@@ -29,6 +29,8 @@
   <remove-project name="device/google/atv" />
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/dragon" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
@@ -45,6 +47,7 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="device/sample" />
+  <remove-project name="platform/external/ims" />
   <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinycompress" />
