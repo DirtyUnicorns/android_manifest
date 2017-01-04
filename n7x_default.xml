@@ -93,7 +93,6 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="n7x" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" revision="n7x" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="n7x" />
-  <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" remote="du" revision="n7x" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="n7x" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="n7x" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="n7x" />
