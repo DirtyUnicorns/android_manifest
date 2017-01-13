@@ -90,6 +90,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="du" revision="n7x" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" revision="n7x" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="du" revision="n7x" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="du" revision="n7x" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="n7x" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" revision="n7x" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="n7x" />
