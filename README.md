@@ -3,6 +3,7 @@
 ## Setup your build enivornment & sync our source ##
 
 To setup your build enivornment and sync DU, please follow this guide [HERE](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Building_AOSP.txt)
+  repo init -u git://github.com/adeii/DU-Y300/android_manifest.git -b m-caf
 
 ## Submitting Patches ##
 
