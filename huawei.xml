@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <!-- Device Folders, Kernel & Proprietary BLOBS -->
+     <project path="vendor/huawei" name="CM13-Y300/proprietary_vendor_huawei" remote="github" revision="cm-13.0"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="SlimLP-Y300/chil360-kernel" remote="github" revision="mm6.0"/>
+     <project path="device/huawei/msm7x27a-common" name="SlimLP-Y300/android_device_huawei_msm7x27a-common" remote="github" revision="mm6.0"/>
+     <project path="device/huawei/u8833" name="SlimLP-Y300/android_device_huawei_u8833" remote="github" revision="mm6.0"/>
+     <project path="device/huawei/u8951" name="SlimLP-Y300/android_device_huawei_u8951" remote="github" revision="mm6.0"/>
+     <project path="device/huawei/u8825" name="SlimLP-Y300/android_device_huawei_u8825" remote="github" revision="mm6.0"/>
+
+     <!-- WIFI -->
+     <project path="hardware/atheros/wifi/ath6kl-huawei" name="SlimLP-Y300/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+     <project path="hardware/atheros/wlan" name="CM13-Y300/android_hardware_atheros_wlan" remote="github" revision="cm-13.0" />
+
+     <!-- GPS -->
+     <remove-project name="android_hardware_qcom_gps" />
+     <project path="hardware/qcom/gps" name="CM13-Y300/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />
+
+     <!-- QCOM Hardware -->
+     <project path="hardware/qcom/display-caf/msm7x27a" name="CM13-Y300/android_hardware_qcom_display-caf" remote="github" revision="cm-13.0" />
+     <project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" remote="github" revision="lp5.1" />
+
+     <!-- Stlport -->
+     <project path="external/stlport" name="SlimRoms/android_external_stlport" remote="github" revision="mm6.0" />
+	 
+	 <!-- DU10 vs Slim6 diff -->
+<project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
+<project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
+<project path="device/generic/common" name="device/generic/common" groups="pdk" />
+<project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+<project path="device/sample" name="device/sample" groups="pdk" />
+<project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
+<project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" remote="github" revision="mm6.0" />
+<project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" remote="github" revision="mm6.0" />
+<project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" remote="github" revision="mm6.0" />
+<project path="external/connectivity" name="SlimRoms/android_external_connectivity" remote="github" revision="mm6.0" />
+<project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="mm6.0" />
+<project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="mm6.0" />
+<project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" remote="github" revision="mm6.0" />
+<project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" remote="github" revision="mm6.0" />
+<project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="mm6.0" />
+<project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
+<project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
+<project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="mm6.0" />
+<project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0" />
+ <!--hardware-->
+ <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="mm6.0" />
+ <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
+ <project path="hardware/qcom/audio-caf/msm8660" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8660" />
+ <project path="hardware/qcom/audio-caf/msm8952" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8952" />
+ <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
+ <project path="hardware/qcom/display-caf/msm8660" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8660" />
+ <project path="hardware/qcom/display-caf/msm8952" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8952" />
+ <project path="hardware/qcom/media-caf/msm8660" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8660" />
+ <project path="hardware/qcom/media-caf/msm8952" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8952" />
+ <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0" />
+ <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
+ <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf" />
+  <!--packages-->
+ <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
+ <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="mm6.0" />
+ <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="github" revision="mm6.0" />
+ <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
+ <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
+
+ <!-- toolchain -->
+ <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="mm6.0" />
+ <!-- vendor -->
+ <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" remote="github" revision="mm6.0" />
+</manifest>
+
+ 
