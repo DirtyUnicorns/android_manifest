@@ -69,6 +69,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="n7x" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="n7x" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="n7x" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="du" revision="n7x" />
   <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="n7x" />
 
   <!--hardware-->
