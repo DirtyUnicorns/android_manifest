@@ -49,11 +49,14 @@
  <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
  <project path="hardware/qcom/audio-caf/msm8660" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8660" />
  <project path="hardware/qcom/audio-caf/msm8952" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8952" />
+ <!--project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="m-caf-8996" remote="du" /-->
  <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
  <project path="hardware/qcom/display-caf/msm8660" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8660" />
  <project path="hardware/qcom/display-caf/msm8952" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8952" />
+ <!--project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="m-caf-8996" remote="du" /-->
  <project path="hardware/qcom/media-caf/msm8660" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8660" />
  <project path="hardware/qcom/media-caf/msm8952" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8952" />
+ <!--project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="m-caf-8996" remote="du" /-->
  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0" />
  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf" />
@@ -66,8 +69,36 @@
 
  <!-- toolchain -->
  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="mm6.0" />
+ <!--remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" / -->
+ <!-- project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="du" revision="m-caf" /-->
+
  <!-- vendor -->
  <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" remote="github" revision="mm6.0" />
+ <!-- optimize download -->
+ <!--remove-project name="platform/external/dhcpcd" /-->
+ <!--project path="external/dhcpcd" name="android_external_dhcpcd" remote="du" revision="m-caf" /-->
+
+ <remove-project name="platform/hardware/nvidia/audio" />
+ <remove-project name="platform/hardware/ti/omap4-aah" />
+ <remove-project name="android_hardware_ti_omap3" />
+ <remove-project name="android_hardware_ti_omap4xxx" />
+
+ <remove-project name="android_hardware_intel_audio_media" />
+ <remove-project name="android_hardware_intel_bootstub" />
+ <remove-project name="android_hardware_intel_common_bd_prov"  />
+ <remove-project name="android_hardware_intel_common_libmix"  />
+ <remove-project name="android_hardware_intel_common_libstagefrighthw"   />
+ <remove-project name="android_hardware_intel_common_libva"  />
+ <remove-project name="android_hardware_intel_common_libwsbm"  />
+ <remove-project name="android_hardware_intel_common_omx-components"  />
+ <remove-project name="android_hardware_intel_common_utils" />
+ <remove-project name="android_hardware_intel_common_wrs_omxil_core" />
+ <remove-project name="android_hardware_intel_img_hwcomposer" />
+ <remove-project name="android_hardware_intel_img_psb_headers"  />
+ <remove-project name="android_hardware_intel_img_psb_video" />
+ <remove-project name="android_hardware_intel_sensors" />
+
+
 </manifest>
 
  
