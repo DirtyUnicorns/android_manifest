@@ -13,7 +13,7 @@
   <!-- DU REPOS -->
 
   <!-- general -->
-  <project path="build" name="android_build" remote="du" revision="n7x" >
+  <project path="build" name="android_build" remote="MA" revision="n7x" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="du" revision="n7x" />
