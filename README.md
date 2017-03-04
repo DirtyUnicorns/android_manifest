@@ -1,15 +1,15 @@
 # Dirty Unicorns #
-[<img src="https://lh3.googleusercontent.com/-p9S_rIap_No/V9iIHcrU1_I/AAAAAAAAEPk/Mba0HIFDvR8oE_1hmfj0SGWqlx561mZBwCL0B/w971-h547-n-no/12.png" height="40%" width="40%;"/>](https://github.com/dirtyunicorns)
+[<center><img src="https://lh3.googleusercontent.com/-p9S_rIap_No/V9iIHcrU1_I/AAAAAAAAEPk/Mba0HIFDvR8oE_1hmfj0SGWqlx561mZBwCL0B/w971-h547-n-no/12.png" height="100%" width="100%;"/></center>](https://github.com/dirtyunicorns)
 
 ## Setup your build enivornment & Sync our source ##
 To setup your build enivornment and sync DU, please follow this guide: [Link](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt)
 
 ## Submitting Patches ##
-Dirty Unicorns is open sourced and welcomes new contributors.
+Dirty Unicorns is a open source project and welcomes new contributors.
 
 To start contributing to DU, just register at "gerrit.dirtyunicorns.com".
 
-Open up a terminal to create your ssh keys for pushing to gerrit and type in:
+Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
 
 ```bash
 git config --global review.gerrit.dirtyunicorns.com.username <username you registered with>
@@ -19,9 +19,9 @@ git config --global review.gerrit.dirtyunicorns.com.email <your email you regist
 ssh-keygen -t rsa -C "your@email.com"
 ```
 
-Go back to our gerrit and click on your "Avatar" on the top right, then on "Settings".
+In our gerrit click on your "Avatar" on the top right, then on "Settings".
 
-Click on "SSH Public Keys" on the left hand side and then on "Add Key".
+While in 'Settings' Click on "SSH Public Keys" on the left hand side and then on "Add Key".
 
 Now on your computer navigate to your home "~/.ssh" and open up "id_rsa.pub", copy/paste the context to "Gerrit SSH Public Keys".
 
