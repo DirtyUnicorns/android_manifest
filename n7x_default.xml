@@ -86,7 +86,7 @@
   <project path="packages/apps/DU-Updater" name="android_packages_apps_DU-Updater" remote="du" revision="n7x" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" revision="n7x" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="n7x" />
-  <project path="packages/apps/Masquerade" name="android_packages_apps_Masquerade" remote="du" revision="n7x" />
+  <project path="packages/apps/ThemeInterfacer" name="android_packages_apps_ThemeInterfacer" remote="du" revision="n7x" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" revision="n7x" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="du" revision="n7x" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" revision="n7x" />
