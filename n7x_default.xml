@@ -101,7 +101,6 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="n7x" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="du" revision="n7x" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="du" revision="n7x" />
-  <project path="packages/apps/CalendarWidget" name="android_packages_apps_CalendarWidget" remote="du" revision="n7x" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" revision="n7x" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="du" revision="n7x" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" revision="n7x" />
