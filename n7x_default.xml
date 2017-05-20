@@ -110,6 +110,7 @@
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" revision="n7x" />
 
   <!-- vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" revision="n7x" />
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="n7x" />
   <project path="vendor/scripts" name="DU-Scripts" remote="du" revision="n" >
     <linkfile src="build-scripts/nathan-build-script.sh" dest="nathan-build-script.sh" />
