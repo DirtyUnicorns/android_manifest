@@ -143,7 +143,7 @@
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="n7x" />
   <project path="vendor/scripts" name="DU-Scripts" remote="du" revision="n" >
     <linkfile src="build-scripts/nathan-build-script.sh" dest="nathan-build-script.sh" />
-    <linkfile src="aosp-merge.sh" dest="aosp-merge.sh" />
+    <linkfile src="caf-merge.sh" dest="caf-merge.sh" />
     <linkfile src="update-themes.sh" dest="update-themes.sh" />
   </project>
 
