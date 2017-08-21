@@ -8,7 +8,7 @@
   <!-- DU remote -->
   <remote  name="du"
            revision="o8x"
-           fetch="https://github.com/DirtyUnicorns/"
+           fetch="https://github.com/UnicornioSucio/"
            review="gerrit.dirtyunicorns.com" />
 
   <!-- DU REPOS -->
