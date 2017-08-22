@@ -60,6 +60,7 @@
 
   <!-- General repos -->
   <remove-project name="platform/build" />
+  <remove-project name="kernel/tests" />
 
   <!-- Package repos -->
    <remove-project name="platform/packages/apps/Browser2" />
@@ -74,6 +75,7 @@
    <remove-project name="platform/packages/apps/QuickSearchBox" />
    <remove-project name="platform/packages/apps/RetailDemo" />
    <remove-project name="platform/packages/apps/SpareParts" />
+   <remove-project name="platform/packages/apps/Test/connectivity" />
    <remove-project name="platform/packages/apps/UnifiedEmail" />
    <remove-project name="platform/packages/inputmethods/OpenWnn" />
 
