@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Device repos -->
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/common" />
@@ -41,6 +42,23 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <!-- Hardware repos -->
+  <remove-project name="hardware/intel/audio_media" />
+  <remove-project name="hardware/intel/bootstub" />
+  <remove-project name="hardware/intel/common/bd_prov" />
+  <remove-project name="hardware/intel/common/libmix" />
+  <remove-project name="hardware/intel/common/libstagefrighthw" />
+  <remove-project name="hardware/intel/common/libva" />
+  <remove-project name="hardware/intel/common/libwsbm" />
+  <remove-project name="hardware/intel/common/omx-components" />
+  <remove-project name="hardware/intel/common/utils" />
+  <remove-project name="hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="hardware/intel/img/hwcomposer" />
+  <remove-project name="hardware/intel/img/psb_headers" />
+  <remove-project name="hardware/intel/img/psb_video" />
+  <remove-project name="hardware/intel/sensors" />
+
+  <!-- General repos -->
   <remove-project name="platform/build" />
 
 </manifest>
