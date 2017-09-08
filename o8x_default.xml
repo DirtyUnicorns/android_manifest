@@ -57,6 +57,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" />
 
   <!-- prebuilts and toolchains -->
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" />
 
   <!-- vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" >
