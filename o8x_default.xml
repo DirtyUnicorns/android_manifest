@@ -37,6 +37,7 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/extras" name="android_system_extras" remote="du" />
 
   <!-- frameworks -->
 
@@ -53,6 +54,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" />
 
   <!-- prebuilts and toolchains -->
 
