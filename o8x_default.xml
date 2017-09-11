@@ -40,6 +40,8 @@
   <project path="system/extras" name="android_system_extras" remote="du" />
 
   <!-- frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" />
 
   <!-- hardware -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" />

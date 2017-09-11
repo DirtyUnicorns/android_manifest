@@ -72,6 +72,10 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="kernel/tests" />
 
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
