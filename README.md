@@ -41,7 +41,7 @@ Ctrl X, then Y to save and Enter
 
 git push ssh://USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT HEAD:refs/for/BRANCH
 
-BRANCH - i.e n
+BRANCH - i.e o8x-caf
 PROJECT - i.e packages_apps_Settings
 USERNAME - i.e Mazda
 ```
@@ -71,5 +71,5 @@ git commit --amend --author "Author <email@address.com>"
 So it should look like this once you get all author's information:
 
 ```bash
-git commit --amend --author "Alex Cruz <mazdarider23@gmail.com>"
+git commit --amend --author "Alex Cruz <du.alexcruz@gmail.com>"
 ```

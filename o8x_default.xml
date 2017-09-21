@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- DU remote -->
+  <remote  name="du"
+           revision="o8x-caf"
+           fetch="https://github.com/DirtyUnicorns/"
+           review="gerrit.dirtyunicorns.com" />
+
+  <!-- DU REPOS -->
+
+  <!-- general -->
+  <project path="manifest" name="android_manifest" remote="du" />
+
+  <!-- external -->
+
+  <!-- system -->
+
+  <!-- frameworks -->
+
+  <!-- hardware -->
+
+  <!-- packages -->
+
+  <!-- prebuilts and toolchains -->
+
+  <!-- vendor -->
+
+</manifest>
