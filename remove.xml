@@ -59,7 +59,9 @@
   <remove-project name="platform/hardware/intel/sensors" />
 
   <!-- General repos -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
   <remove-project name="kernel/tests" />
 
   <!-- Package repos -->
