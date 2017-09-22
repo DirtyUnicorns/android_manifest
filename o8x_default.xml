@@ -15,7 +15,6 @@
 
   <!-- general -->
   <project path="bionic" name="android_bionic" remote="du" />
-  <project path="build/extras" name="android_build_extras" remote="du" revision="o8x" />
   <project path="build/make" name="android_build" remote="du" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -45,5 +44,6 @@
 
   <!-- vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="o8x" />
+  <project path="vendor/extras" name="android_vendor_extras" remote="du" revision="o8x" />
 
 </manifest>
