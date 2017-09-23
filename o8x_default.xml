@@ -52,6 +52,11 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" />
 
   <!-- system -->
+  <project path="system/bt" name="android_system_bt" remote="du" />
+  <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/nfc" name="DirtyUnicorns/android_system_nfc" remote="github" revision="o8x" />
+  <project path="system/sepolicy" name="DirtyUnicorns/android_system_sepolicy" remote="github" revision="o8x" />
+  <project path="system/vold" name="android_system_vold" remote="du" />
 
   <!-- frameworks -->
 
