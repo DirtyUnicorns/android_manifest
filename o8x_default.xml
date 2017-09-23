@@ -59,6 +59,7 @@
   <project path="system/vold" name="android_system_vold" remote="du" />
 
   <!-- frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" />
 
   <!-- hardware -->
 
