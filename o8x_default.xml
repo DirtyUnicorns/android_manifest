@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- CAF remote -->
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/" />
+
   <!-- Github remote -->
   <remote  name="github"
            fetch="https://github.com/" />
@@ -31,6 +35,10 @@
   <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- external -->
+  <project path="external/ebtables" name="android_external_ebtables" remote="du" />
+  <project path="external/fuse" name="android_external_fuse" remote="du" />
+  <project path="external/htop" name="android_external_htop" remote="du" />
+  <project path="external/json-c" name="quic/la/platform/external/json-c" remote="caf" revision="android-external.lnx.2.9.1.r5-rel" />
 
   <!-- system -->
 
