@@ -42,6 +42,14 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />

@@ -35,10 +35,21 @@
   <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- external -->
+  <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/ebtables" name="android_external_ebtables" remote="du" />
   <project path="external/fuse" name="android_external_fuse" remote="du" />
   <project path="external/htop" name="android_external_htop" remote="du" />
   <project path="external/json-c" name="quic/la/platform/external/json-c" remote="caf" revision="android-external.lnx.2.9.1.r5-rel" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="du" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="du" />
+  <project path="external/libnfnetlink" name="quic/la/platform/external/libnfnetlink" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
+  <project path="external/libnfc-nxp" name="external/gigabyte/platform/external/libnfc-nxp" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
+  <project path="external/nano" name="android_external_nano" remote="du" />
+  <project path="external/powertop" name="android_external_powertop" remote="du" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
+  <project path="external/selinux" name="quic/la/platform/external/selinux" remote="caf" revision="aosp-new/oreo-r6-release" />
+  <project path="external/toybox" name="quic/la/platform/external/toybox" remote="caf" revision="aosp-new/oreo-r6-release" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" />
 
   <!-- system -->
 
