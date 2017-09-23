@@ -63,6 +63,13 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
 
   <!-- hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="du" />
 
   <!-- packages -->
 
