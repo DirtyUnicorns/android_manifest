@@ -51,6 +51,10 @@
   <project path="external/toybox" name="quic/la/platform/external/toybox" remote="caf" revision="aosp-new/oreo-r6-release" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" />
 
+  <!-- device -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="du" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" />
+
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="du" />
   <project path="system/core" name="android_system_core" remote="du" />
