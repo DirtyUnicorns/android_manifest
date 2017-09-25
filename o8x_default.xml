@@ -47,7 +47,7 @@
   <project path="external/nano" name="android_external_nano" remote="du" />
   <project path="external/powertop" name="android_external_powertop" remote="du" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
-  <project path="external/selinux" name="quic/la/platform/external/selinux" remote="caf" revision="aosp-new/oreo-r6-release" />
+  <project path="external/selinux" name="android_external_selinux" remote="du" />
   <project path="external/toybox" name="quic/la/platform/external/toybox" remote="caf" revision="aosp-new/oreo-r6-release" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" />
 
