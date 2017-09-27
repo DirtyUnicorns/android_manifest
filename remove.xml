@@ -75,6 +75,7 @@
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />

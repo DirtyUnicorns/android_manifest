@@ -43,6 +43,7 @@
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" />
   <project path="frameworks/base" name="android_frameworks_base" remote="du" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" />
 
   <!-- hardware -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" />
