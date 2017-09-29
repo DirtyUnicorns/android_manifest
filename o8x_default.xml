@@ -45,7 +45,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="du" />
 
   <!-- hardware -->
-  <project path="hardware/interfaces" name="android_hardware_intrfaces" remote="du" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" />
