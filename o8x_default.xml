@@ -104,7 +104,9 @@
 
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="quic/la/platform/vendor/codeaurora/telephony" remote="caf" revision="atel.lnx.2.9.1.r5-rel" />
-  <project path="vendor/du" name="android_vendor_du" remote="du" revision="o8x" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="o8x" >
+    <linkfile src="scripts/caf-merge.sh" dest="caf-merge.sh" />
+  </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" revision="o8x" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="du" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" />
