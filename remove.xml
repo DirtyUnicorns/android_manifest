@@ -43,6 +43,7 @@
   <remove-project name="device/sample" />
 
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -58,13 +59,13 @@
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
   <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
@@ -80,6 +81,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/media" />
