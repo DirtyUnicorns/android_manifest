@@ -82,6 +82,7 @@
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/media" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Browser2" />
