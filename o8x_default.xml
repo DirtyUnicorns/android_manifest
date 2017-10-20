@@ -34,6 +34,7 @@
   <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- external -->
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" />
 
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="du" />

@@ -42,6 +42,9 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/wpa_supplicant_8" />
+
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/intel/audio_media" />
