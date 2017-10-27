@@ -46,6 +46,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="du" />
   <project path="frameworks/base" name="android_frameworks_base" remote="du" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="du" />
 
   <!-- hardware -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" />
