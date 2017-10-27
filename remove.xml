@@ -85,7 +85,9 @@
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/support" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
