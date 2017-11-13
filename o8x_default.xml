@@ -60,6 +60,7 @@
   <project path="system/bt" name="android_system_bt" remote="du" />
   <project path="system/core" name="android_system_core" remote="du" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="du" />
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="du" revision="o8x" />
   <project path="system/media" name="android_system_media" remote="du" revision="o8x" />
   <project path="system/netd" name="android_system_netd" remote="du" />
   <project path="system/nfc" name="android_system_nfc" remote="du" revision="o8x" />

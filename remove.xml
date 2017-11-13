@@ -94,6 +94,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/hwservicemanager" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
