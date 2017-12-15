@@ -63,13 +63,14 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="kernel/tests" />
 
-  <!-- System repos -->
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/vold" />
-
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
 
@@ -104,6 +105,11 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
   <remove-project name="platform/packages/services/Telephony" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Toolchain repos -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
