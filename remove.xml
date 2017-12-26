@@ -73,6 +73,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
