@@ -40,8 +40,9 @@
 
   <!-- external -->
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
-  <project path="external/ebtables" name="android_external_ebtables" remote="du" />
+  <project path="external/changeloglib" name="android_external_changeloglib" remote="du" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="du" />
   <project path="external/fuse" name="android_external_fuse" remote="du" />
   <project path="external/htop" name="android_external_htop" remote="du" />
   <project path="external/json-c" name="quic/la/platform/external/json-c" remote="caf" revision="android-external.lnx.2.9.1.r5-rel" />
