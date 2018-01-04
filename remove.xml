@@ -20,6 +20,7 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
@@ -30,7 +31,11 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead" />
@@ -43,38 +48,15 @@
   <remove-project name="device/sample" />
 
   <!-- External repos -->
-  <remove-project name="platform/external/libnetfilter_conntrack" />
-  <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
 
-  <!-- Hardware repos -->
-  <remove-project name="platform/hardware/intel/audio_media" />
-  <remove-project name="platform/hardware/intel/bootstub" />
-  <remove-project name="platform/hardware/intel/common/bd_prov" />
-  <remove-project name="platform/hardware/intel/common/libmix" />
-  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
-  <remove-project name="platform/hardware/intel/common/libva" />
-  <remove-project name="platform/hardware/intel/common/libwsbm" />
-  <remove-project name="platform/hardware/intel/common/omx-components" />
-  <remove-project name="platform/hardware/intel/common/utils" />
-  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-  <remove-project name="platform/hardware/intel/img/hwcomposer" />
-  <remove-project name="platform/hardware/intel/img/psb_headers" />
-  <remove-project name="platform/hardware/intel/img/psb_video" />
-  <remove-project name="platform/hardware/intel/sensors" />
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/support" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
@@ -83,33 +65,29 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="kernel/tests" />
 
-  <!-- Framework repos -->
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/support" />
-
-  <!-- System repos -->
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/hardware/interfaces" />
-  <remove-project name="platform/system/hwservicemanager" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/nfc" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/vold" />
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
@@ -118,15 +96,12 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
-  <remove-project name="platform/packages/apps/Phone" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />
-  <remove-project name="platform/packages/apps/SpeechRecorder" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -137,7 +112,16 @@
   <remove-project name="platform/packages/screensavers/WebView" />
   <remove-project name="platform/packages/services/Telephony" />
 
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+
   <!-- Toolchain repos -->
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />

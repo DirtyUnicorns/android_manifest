@@ -17,10 +17,12 @@
 
   <!-- DU REPOS -->
 
+  <!-- DU REPOS -->
+
   <!-- general -->
   <project path="bionic" name="android_bionic" remote="du" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" revision="o8x" />
-  <project path="build/make" name="android_build" remote="du" revision="o8x" >
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
+  <project path="build/make" name="android_build" remote="du" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -33,100 +35,85 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
   <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- external -->
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/ebtables" name="android_external_ebtables" remote="du" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="o8x" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="du" />
   <project path="external/fuse" name="android_external_fuse" remote="du" />
   <project path="external/htop" name="android_external_htop" remote="du" />
   <project path="external/json-c" name="quic/la/platform/external/json-c" remote="caf" revision="android-external.lnx.2.9.1.r5-rel" />
   <project path="external/libncurses" name="android_external_libncurses" remote="du" />
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="du" />
-  <project path="external/libnfnetlink" name="quic/la/platform/external/libnfnetlink" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/libnfc-nxp" name="external/gigabyte/platform/external/libnfc-nxp" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
   <project path="external/nano" name="android_external_nano" remote="du" />
   <project path="external/powertop" name="android_external_powertop" remote="du" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
-  <project path="external/toybox" name="quic/la/platform/external/toybox" remote="caf" revision="aosp-new/oreo-r6-release" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
+  <project path="external/toybox" name="quic/la/platform/external/toybox" remote="caf" revision="aosp-new/oreo-mr1-release" />
 
   <!-- device -->
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="du" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" />
-
-  <!-- system -->
-  <project path="system/bt" name="android_system_bt" remote="du" />
-  <project path="system/core" name="android_system_core" remote="du" />
-  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="du" />
-  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="du" revision="o8x" />
-  <project path="system/media" name="android_system_media" remote="du" revision="o8x" />
-  <project path="system/netd" name="android_system_netd" remote="du" />
-  <project path="system/nfc" name="android_system_nfc" remote="du" revision="o8x" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" revision="o8x" />
-  <project path="system/vold" name="android_system_vold" remote="du" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="o8x" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="o8x" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="du" revision="o8x" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="du" />
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="du" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8998" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="o8x" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="du" revision="o8x-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="du" revision="o8x-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="du" revision="o8x-caf-8998" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="o8x" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8998" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
+  <project path="hardware/qcom/msm8x84" name="android_hardware_qcom_msm8x84" remote="du" />
 
   <!-- packages -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="o8x"/>
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="du" revision="o8x" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" revision="o8x" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" revision="o8x" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" revision="o8x" />
-  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" revision="o8x" />
-  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" revision="o8x" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" revision="o8x" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" revision="o8x" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" revision="o8x" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" revision="o8x" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="o8x" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" revision="o8x" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" revision="o8x" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="o8x" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="o8x" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="du" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" />
 
-  <!-- prebuilts and toolchains -->
-  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" revision="o8x" />
+  <!-- system -->
+  <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="du" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="du" />
+  <project path="system/nfc" name="android_system_nfc" remote="du" revision="o8x" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
+  <project path="system/vold" name="android_system_vold" remote="du" />
+
+  <!-- prebuilts -->
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" />
 
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="quic/la/platform/vendor/codeaurora/telephony" remote="caf" revision="atel.lnx.2.9.1.r5-rel" />
-  <project path="vendor/du" name="android_vendor_du" remote="du" revision="o8x" >
-    <linkfile src="scripts/caf-merge.sh" dest="caf-merge.sh" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" >
+    <linkfile src="scripts/aosp-merge.sh" dest="aosp-merge.sh" />
   </project>
-  <project path="vendor/extras" name="android_vendor_extras" remote="du" revision="o8x" />
+  <project path="vendor/extras" name="android_vendor_extras" remote="du" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="du" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" />
-  <project path="vendor/qcom/opensource/interfaces" name="quic/la/platform/vendor/qcom-opensource/interfaces" remote="caf" revision="android-interfaces.lnx.1.0.r3-rel" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="du" />
 
 </manifest>
