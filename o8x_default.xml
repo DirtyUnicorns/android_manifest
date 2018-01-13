@@ -76,6 +76,7 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/nfc" name="android_system_nfc" remote="du" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
   <project path="system/vold" name="android_system_vold" remote="du" />
 
