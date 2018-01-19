@@ -88,6 +88,7 @@
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" />
 
   <!-- vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" revision="o8x-caf" />
   <project path="vendor/du" name="android_vendor_du" remote="du" >
     <linkfile src="scripts/aosp-merge.sh" dest="aosp-merge.sh" />
   </project>
