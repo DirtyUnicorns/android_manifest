@@ -86,6 +86,7 @@
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="du" revision="o8x-caf-8998" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="o8x-caf" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
 
