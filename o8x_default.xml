@@ -33,7 +33,6 @@
   <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- external -->
-  <project path="external/changeloglib" name="android_external_changeloglib" remote="du" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
 
@@ -60,6 +59,7 @@
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="du" />
+  <project path="packages/apps/Changelog" name="android_packages_apps_Changelog" remote="du" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="du" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" />
