@@ -73,6 +73,7 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf-8998" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="o8x" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="o8x-caf" />
