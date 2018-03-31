@@ -107,6 +107,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="du" revision="o8x-caf" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
   <project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" remote="du" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="du" />
