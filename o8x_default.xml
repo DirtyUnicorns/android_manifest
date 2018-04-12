@@ -67,7 +67,7 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="du" />
 
   <!-- hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" revision="o8x-caf" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="o8x-caf" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="o8x-caf" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="du" revision="o8x-caf" />
