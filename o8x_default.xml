@@ -89,6 +89,7 @@
   <project path="system/vold" name="android_system_vold" remote="du" />
 
   <!-- prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="du" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="du" />
 
   <!-- vendor -->
