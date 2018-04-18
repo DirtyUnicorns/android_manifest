@@ -79,3 +79,9 @@ So it should look like this once you get all author's information:
 ```bash
 git commit --amend --author "Alex Cruz <du.alexcruz@gmail.com>"
 ```
+
+If you do not want to clone or fetch the repo and the patch is on GitHub, you can easily get the author of the patch by adding `.patch` to the end of the commit URL and copy the contents of the from line after the `From:`.
+
+For example: https://github.com/DirtyUnicorns/android_manifest/commit/9d44b2e34fd0b6674de79d001010e513ba14e312.patch
+
+It is also recommended that you keep the date intact as well as it helps other open source users figure out the original version that a patch may have come from. Copy the contents of the date line after the `Date:` then add `--date="<date_just_copied>"` to the above `git commit --amend` command.
