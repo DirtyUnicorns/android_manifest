@@ -48,6 +48,7 @@
   <remove-project name="device/sample" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/clang" />
   <remove-project name="platform/external/selinux" />
 
   <!-- Framework repos -->
