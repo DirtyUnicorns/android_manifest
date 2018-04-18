@@ -39,15 +39,21 @@ Add commit message that makes sense for others to understand what the commit is 
 
 Ctrl X, then Y to save and Enter
 
-git push ssh://USERNAME@gerrit.dirtyunicorns.com:29418/PROJECT HEAD:refs/for/BRANCH
+git push ssh://<username>@gerrit.dirtyunicorns.com:29418/<project> HEAD:refs/for/<branch>
+```
 
-BRANCH - i.e o8x
-PROJECT - i.e packages_apps_Settings
-USERNAME - i.e Mazda
+* `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.dirtyunicorns.com/#/settings/))
+* `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.dirtyunicorns.com/#/admin/projects/)
+* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `o8x`
+
+A full command would look like:
+
+```bash
+git push ssh://Mazda@gerrit.dirtyunicorns.com:29418/android_packages_apps_Settings HEAD:refs/for/o8x
 ```
 
 If you are going to make extra additions, just repeat steps (don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
+use git commit --amend. Gerrit will recognize it as a new patchset. Do NOT change the Change-Id in the commit message.
 
 For more information on how to push to a gerrit, please read the following: [Link](https://wiki.mahara.org/wiki/Developer_Area/Contributing_Code)
 
