@@ -33,6 +33,7 @@
   <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- external -->
+  <project path="external/clang" name="android_external_clang" remote="du" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
 
