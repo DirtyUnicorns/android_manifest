@@ -39,6 +39,7 @@
   <project path="manifest" name="android_manifest" remote="du" revision="o8x-caf" />
 
   <!-- external -->
+  <project path="external/bson" name="android_external_bson" remote="du" revision="o8x-caf" />
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/clang" name="android_external_clang" remote="du" />
   <project path="external/DUtils" name="android_external_DUtils" remote="du" />
