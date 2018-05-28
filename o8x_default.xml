@@ -16,9 +16,6 @@
            review="gerrit.dirtyunicorns.com" />
 
   <!-- DU REPOS -->
-
-  <!-- DU REPOS -->
-
   <!-- general -->
   <project path="bionic" name="android_bionic" remote="du" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
@@ -53,7 +50,6 @@
   <project path="external/powertop" name="android_external_powertop" remote="du" revision="o8x-caf" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="o8x-caf" />
-  <project path="external/toybox" name="quic/la/platform/external/toybox" remote="caf" revision="aosp-new/oreo-mr1-release" />
 
   <!-- device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" revision="o8x-caf" />
