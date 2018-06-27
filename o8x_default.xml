@@ -39,7 +39,7 @@
   <project path="external/bson" name="android_external_bson" remote="du" revision="o8x-caf" />
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/clang" name="android_external_clang" remote="du" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="du" />
+  <project path="external/DUI" name="android_external_DUI" remote="du" />
   <project path="external/ebtables" name="android_external_ebtables" remote="du" revision="o8x-caf" />
   <project path="external/fuse" name="android_external_fuse" remote="du" revision="o8x-caf" />
   <project path="external/htop" name="android_external_htop" remote="du" revision="o8x-caf" />
@@ -96,7 +96,6 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="du" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="du" />
-  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
   <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
   <project path="packages/apps/DU-Updater" name="android_packages_apps_DU-Updater" remote="du" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="du" />
