@@ -82,6 +82,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" />
 
   <!-- system -->
+  <project path="system/bt" name="android_system_bt" remote="du" />
   <project path="system/core" name="android_system_core" remote="du" />
   <project path="system/extras" name="android_system_extras" remote="du" />
   <project path="system/nfc" name="android_system_nfc" remote="du" />
