@@ -44,12 +44,12 @@ git push ssh://<username>@gerrit.dirtyunicorns.com:29418/<project> HEAD:refs/for
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.dirtyunicorns.com/#/settings/))
 * `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.dirtyunicorns.com/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `o8x`
+* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `p9x`
 
 A full command would look like:
 
 ```bash
-git push ssh://Mazda@gerrit.dirtyunicorns.com:29418/android_packages_apps_Settings HEAD:refs/for/o8x
+git push ssh://Mazda@gerrit.dirtyunicorns.com:29418/android_packages_apps_Settings HEAD:refs/for/p9x
 ```
 
 If you are going to make extra additions, just repeat steps (don't start a new patch), but instead of git commit -m
@@ -62,10 +62,10 @@ Also to make this even easier, you can use a universal gerrit script provided by
 If you still can not figure it out, don't hesitate to contact us in our G+ community: [Link](https://plus.google.com/u/0/communities/109738128866939227235)
 
 ## Maintain Authorship ##
-Please make sure if you submit a patch/fix from another ROM that you maintain authorship. 
+Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
 This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
 
-If you manually cherry pick a patch/fix please add the original author prior to pushing to our gerrit. 
+If you manually cherry pick a patch/fix please add the original author prior to pushing to our gerrit.
 This task is very easy and is usually done after you commit a patch/fix locally.
 
 i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
