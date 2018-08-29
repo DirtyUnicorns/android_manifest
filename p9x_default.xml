@@ -36,6 +36,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="du" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" />
   <project path="frameworks/base" name="android_frameworks_base" remote="du" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="du" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" />

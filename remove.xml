@@ -47,6 +47,7 @@
   <remove-project name="platform/external/selinux" />
 
   <!-- Framework -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
