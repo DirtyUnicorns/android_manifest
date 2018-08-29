@@ -2,19 +2,107 @@
 <manifest>
 
   <!-- Device -->
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mips" />
+  <remove-project name="device/generic/mips64" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-mips64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_common" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/marlin" />
+  <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project name="device/linaro/bootloader/edk2" />
+  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/sample" />
 
   <!-- External -->
+  <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- Framework -->
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- General -->
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/build/soong" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/Protips" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/Test/connectivity" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <remove-project name="platform/packages/inputmethods/OpenWnn" />
+  <remove-project name="platform/packages/screensavers/Basic" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/screensavers/WebView" />
 
   <!-- System -->
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!-- Toolchains -->
+  <remove-project name="platform/prebuilts/build-tools" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
 </manifest>
