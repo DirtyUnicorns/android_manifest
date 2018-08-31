@@ -53,6 +53,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- General -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
