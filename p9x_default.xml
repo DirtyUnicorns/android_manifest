@@ -5,6 +5,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <!-- DU remote -->
   <remote  name="du"
            revision="p9x"
