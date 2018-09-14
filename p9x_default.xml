@@ -65,6 +65,7 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" />
 
   <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" />
   <project path="vendor/du" name="android_vendor_du" remote="du" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
