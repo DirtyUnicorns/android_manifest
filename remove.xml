@@ -44,13 +44,16 @@
 
   <!-- External -->
   <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- General -->
   <remove-project name="platform/bionic" />
@@ -60,10 +63,22 @@
   <remove-project name="platform/build/soong" />
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -89,8 +104,11 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/sepolicy" />
 
