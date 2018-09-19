@@ -44,6 +44,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/selinux" />
 
   <!-- Framework -->

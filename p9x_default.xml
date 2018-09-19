@@ -38,6 +38,7 @@
 
   <!-- External -->
   <project path="external/clang" name="android_external_clang" remote="du" />
+  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
 
   <!-- Frameworks -->
