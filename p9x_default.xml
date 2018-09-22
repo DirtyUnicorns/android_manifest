@@ -46,6 +46,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="du" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="du" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" />
