@@ -84,6 +84,7 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="du" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="p9x-caf" />
 
