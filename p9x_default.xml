@@ -106,6 +106,7 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="du" revision="p9x-caf" />
+  <project path="vendor/support" name="android_vendor_support" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
 
 </manifest>
