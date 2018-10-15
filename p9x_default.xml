@@ -76,6 +76,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" />
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" />
