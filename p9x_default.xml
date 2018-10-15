@@ -45,7 +45,7 @@
   <project path="external/clang" name="android_external_clang" remote="du" />
   <project path="external/connectivity" name="android_external_connectivity" remote="du" revision="p9x-caf" />
   <project path="external/json-c" name="android_external_json-c" remote="du" revision="p9x-caf" />
-  <project path="external/perfetto" name="android_external_perfetto" remote="du" revision="p9x-caf" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" revision="p9x-caf" />
 
