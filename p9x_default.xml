@@ -64,6 +64,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="du" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="du" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="du" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
