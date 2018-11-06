@@ -55,6 +55,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" />
   <project path="hardware/qcom/msm8x84" name="android_hardware_qcom_msm8x84" remote="du" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
 
   <!-- Packages -->

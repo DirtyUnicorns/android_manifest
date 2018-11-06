@@ -83,9 +83,10 @@
   <remove-project name="platform/hardware/intel/sensors" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
