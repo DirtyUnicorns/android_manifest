@@ -45,7 +45,7 @@
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/sample" />
+  <!-- remove-project name="device/sample" / -->
 
   <!-- External repos -->
   <remove-project name="platform/external/clang" />
