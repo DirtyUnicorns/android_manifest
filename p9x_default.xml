@@ -44,6 +44,7 @@
   <project path="external/bson" name="android_external_bson" remote="du" revision="p9x-caf" />
   <project path="external/clang" name="android_external_clang" remote="du" />
   <project path="external/connectivity" name="android_external_connectivity" remote="du" revision="p9x-caf" />
+  <project path="external/DUI" name="android_external_DUI" remote="du" revision="p9x" />
   <project path="external/json-c" name="android_external_json-c" remote="du" revision="p9x-caf" />
   <project path="external/perfetto" name="android_external_perfetto" remote="du" />
   <project path="external/protobuf" name="android_external_protobuf" remote="du" />
