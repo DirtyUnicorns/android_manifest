@@ -85,7 +85,6 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
