@@ -122,6 +122,7 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
