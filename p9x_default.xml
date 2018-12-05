@@ -96,7 +96,7 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="p9x-caf" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="du" revision="p9x-caf" />
