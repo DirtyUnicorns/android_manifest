@@ -40,6 +40,9 @@
   </project>
   <project path="manifest" name="android_manifest" remote="du" revision="p9x-caf" />
 
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" revision="p9x-caf" />
+
   <!-- External -->
   <project path="external/bson" name="android_external_bson" remote="du" revision="p9x-caf" />
   <project path="external/clang" name="android_external_clang" remote="du" />
