@@ -50,6 +50,7 @@
   <project path="external/DUI" name="android_external_DUI" remote="du" revision="p9x" />
   <project path="external/google" name="android_external_google" remote="du" revision="p9x" />
   <project path="external/json-c" name="android_external_json-c" remote="du" revision="p9x-caf" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="du" revision="p9x-caf" />
   <project path="external/perfetto" name="android_external_perfetto" remote="du" />
   <project path="external/protobuf" name="android_external_protobuf" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
@@ -123,6 +124,12 @@
   </project>
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" />
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="du" revision="p9x-caf" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="du" revision="p9x-caf" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="du" revision="p9x-caf" />
+  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="du" revision="p9x-caf" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="du" revision="p9x-caf" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_opensource_interfaces_nfc" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/cryptfs/hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="du" revision="p9x-caf" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="du" revision="p9x-caf" />
