@@ -2,7 +2,8 @@
 <manifest>
 
   <!-- Device -->
-  <remove-project name="device/amlogic" />
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
@@ -10,8 +11,6 @@
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/mips" />
-  <remove-project name="device/generic/mips64" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -52,7 +51,8 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/sample" />
-  <remove-project name="device/ti" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- General -->
   <remove-project name="platform/build" />
