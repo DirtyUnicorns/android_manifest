@@ -21,8 +21,6 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/google/accessory/arduino" />
-  <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
