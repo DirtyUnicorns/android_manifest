@@ -25,7 +25,6 @@
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
-  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
@@ -38,7 +37,6 @@
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/vrservices" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
