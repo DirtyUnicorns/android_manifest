@@ -40,5 +40,6 @@
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="sucio" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="sucio" />
 
 </manifest>
