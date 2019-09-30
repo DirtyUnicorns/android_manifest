@@ -10,14 +10,14 @@
            fetch="https://gitlab.com/" />
 
   <!-- DU remote -->
-  <remote  name="sucio"
+  <remote  name="du"
            revision="q10x"
-           fetch="https://github.com/UnicornioSucio/" />
+           fetch="https://github.com/DirtyUnicorns/" />
 
-  <!-- DU STAGING REPOS -->
+  <!-- DU REPOS -->
 
   <!-- General -->
-  <project path="build/make" name="android_build" remote="sucio" >
+  <project path="build/make" name="android_build" remote="du" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,20 +26,20 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="sucio" >
+  <project path="build/soong" name="android_build_soong" remote="du" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="android_manifest" remote="sucio" />
+  <project path="manifest" name="android_manifest" remote="du" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="sucio" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
 
   <!-- Vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="sucio" >
+  <project path="vendor/du" name="android_vendor_du" remote="du" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
-  <project path="vendor/extras" name="android_vendor_extras" remote="sucio" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="sucio" />
+  <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="du" />
 
 </manifest>
