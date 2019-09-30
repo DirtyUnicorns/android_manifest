@@ -54,6 +54,9 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/ti/am57x" />
