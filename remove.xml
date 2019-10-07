@@ -51,6 +51,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- General -->
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
@@ -61,7 +62,7 @@
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/ti/am57x" />
 
-  <!-- Pacakges -->
+  <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -89,6 +90,10 @@
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
+
+  <!-- System -->
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
