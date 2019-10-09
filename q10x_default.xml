@@ -32,6 +32,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="android_manifest" remote="du" />
+  <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="du" />
