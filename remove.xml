@@ -58,6 +58,7 @@
   <remove-project name="platform/platform_testing" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/opt/telephony" />
 

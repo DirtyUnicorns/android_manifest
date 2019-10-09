@@ -36,6 +36,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="du" />
   <project path="frameworks/base" name="android_frameworks_base" remote="du" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" />
 
