@@ -51,6 +51,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- General -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -58,6 +59,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/invensense" />
@@ -93,6 +95,7 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
 
   <!-- System -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
