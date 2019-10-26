@@ -77,7 +77,7 @@
 
   <!-- Vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" >
-    <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
+    <linkfile src="scripts/merge-aosp.py" dest="merge-aosp.py" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
