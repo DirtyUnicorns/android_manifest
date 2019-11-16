@@ -82,6 +82,7 @@
     <linkfile src="scripts/merge-aosp.py" dest="merge-aosp.py" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/support" name="android_vendor_support" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
 
 </manifest>
