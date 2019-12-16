@@ -19,27 +19,32 @@ git config --global review.gerrit.dirtyunicorns.com.email <your email you regist
 ssh-keygen -t rsa -C "your@email.com"
 ```
 
-In our Gerrit, click on your "Avatar" on the top right, then on "Settings".
+In our Gerrit, click on the 'Settings' icon in the top right corner next to username.
 
-While in 'Settings' Click on "SSH Public Keys" on the left-hand side and then on "Add Key".
-
-Now on your computer navigate to your home "~/.ssh" and open up "id_rsa.pub", copy/paste the context to "Gerrit SSH Public Keys".
+Now on your computer navigate to your home "~/.ssh", open up "id_rsa.pub" and copy the entire content of the file.
+While in 'Settings' Click on "SSH Keys" on the left-hand side and then on "ADD NEW SSH KEY" after copying your key into the field.
 
 You can send patches to us by using these commands in Terminal:
 
 ```bash
 cd PROJECT - i.e cd packages/apps/Settings
+```
 
 Make whatever edits you need to .....
-
+```bash
 git add -A
 git commit -a
+```
+Add commit message that makes sense for others to understand what the commit is for.
 
-Add commit message that makes sense for others to understand what the commit is for
-
-Ctrl X, then Y to save and Enter
-
+Ctrl X, then Y to save and Enter:
+```bash
 git push ssh://<username>@gerrit.dirtyunicorns.com:29418/<project> HEAD:refs/for/<branch>
+```
+
+To submit private changes you can also use:
+```bash
+git push ssh://<username>@gerrit.dirtyunicorns.com:29418/<project> HEAD:refs/for/<branch>%private
 ```
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.dirtyunicorns.com/#/settings/))
@@ -55,11 +60,9 @@ git push ssh://Mazda@gerrit.dirtyunicorns.com:29418/android_packages_apps_Settin
 If you are going to make extra additions, just repeat steps (don't start a new patch), but instead of git commit -m
 use git commit --amend. Gerrit will recognize it as a new patchset. Do NOT change the Change-Id in the commit message.
 
-For more information on how to push to a Gerrit, please read the following: [Link](https://wiki.mahara.org/wiki/Developer_Area/Contributing_Code)
+For more information on how to push to Gerrit, please reference the Gerrit documentation: [Link](https://gerrit-review.googlesource.com/Documentation/intro-user.html)
 
-Also to make this even easier, you can use a universal Gerrit script provided by PAC: [Link](http://forum.xda-developers.com/showthread.php?t=2530388)
-
-If you still can not figure it out, don't hesitate to contact us in our G+ community: [Link](https://plus.google.com/u/0/communities/109738128866939227235)
+If you still can not figure it out, don't hesitate to contact us in our Telegram support chat: [Link](https://t.me/DirtyUnicornsSupport)
 
 ## Maintaining Authorship ##
 Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
