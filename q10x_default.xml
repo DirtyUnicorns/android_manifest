@@ -38,6 +38,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!-- External -->
+  <project path="external/google" name="android_external_google" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
 
