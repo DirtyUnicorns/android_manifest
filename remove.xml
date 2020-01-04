@@ -117,6 +117,9 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/services/Telephony" />
 
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/build-tools" />
+
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
