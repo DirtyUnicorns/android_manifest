@@ -43,7 +43,9 @@
   <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!-- External -->
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="du" />
   <project path="external/google" name="android_external_google" remote="du" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
 
@@ -54,6 +56,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
