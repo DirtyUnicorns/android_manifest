@@ -9,9 +9,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-  <!-- Gerrit remote -->
-  <remote  name="gerrit"
-           fetch="https://gerrit.dirtyunicorns.com/" />
+  <!-- Alternate remote -->
+  <remote  name="alternate"
+           fetch="https://git.dirtyunicorns.com/DirtyUnicorns/" />
 
   <!-- DU remote -->
   <remote  name="du"
