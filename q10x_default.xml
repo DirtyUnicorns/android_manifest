@@ -46,6 +46,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="du" />
   <project path="external/google" name="android_external_google" remote="du" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="du" />
+  <project path="external/pulse" name="android_external_pulse" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="du" />
 
