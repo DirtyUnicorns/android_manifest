@@ -81,6 +81,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/ti/am57x" />
 
