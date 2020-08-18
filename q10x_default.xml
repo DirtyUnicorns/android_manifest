@@ -96,6 +96,7 @@
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="du" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="du" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="du" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="du" />
 
