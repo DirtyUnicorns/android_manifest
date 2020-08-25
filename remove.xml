@@ -39,6 +39,9 @@
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
@@ -86,8 +89,6 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
-  <remove-project name="platform/hardware/qcom/sm8150/gps" />
-  <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/ti/am57x" />
 
