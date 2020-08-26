@@ -79,6 +79,7 @@
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="du" revision="q10x-caf-8998" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="du" revision="q10x-caf" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
+  <project path="hardware/qcom/sm7150/display" name="android_hardware_qcom_sm7150_display" remote="du" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
   <!-- Packages -->
