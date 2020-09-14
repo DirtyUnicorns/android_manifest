@@ -49,12 +49,12 @@ git push ssh://<username>@gerrit.dirtyunicorns.com:29418/<project> HEAD:refs/for
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.dirtyunicorns.com/#/settings/))
 * `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.dirtyunicorns.com/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `q10x`
+* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `r11x`
 
 A full command would look like:
 
 ```bash
-git push ssh://Mazda@gerrit.dirtyunicorns.com:29418/android_packages_apps_Settings HEAD:refs/for/q10x
+git push ssh://dualexcruz@gerrit.dirtyunicorns.com:29418/android_packages_apps_Settings HEAD:refs/for/r11x
 ```
 
 If you are going to make extra additions, just repeat steps (don't start a new patch), but instead of git commit -m
