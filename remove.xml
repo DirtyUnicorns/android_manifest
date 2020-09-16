@@ -63,6 +63,7 @@
 
   <!-- General -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Browser2" />
