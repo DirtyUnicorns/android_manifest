@@ -30,7 +30,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="staging" >
+  <project path="build/soong" name="android_build_soong" remote="staging" />
   <project path="manifest" name="android_manifest" remote="staging" />
 
   <!-- Vendors -->
