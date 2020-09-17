@@ -62,8 +62,13 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- General -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/platform_testing" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Browser2" />

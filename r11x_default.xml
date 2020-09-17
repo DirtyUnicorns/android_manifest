@@ -21,6 +21,7 @@
   <!-- DU REPOS -->
 
   <!-- General -->
+  <project path="bionic" name="android_bionic" remote="staging" />
   <project path="build/make" name="android_build" remote="staging" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -31,7 +32,14 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/soong" name="android_build_soong" remote="staging" />
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="manifest" name="android_manifest" remote="staging" />
+  <project path="platform_testing" name="android_platform_testing" remote="staging" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="staging" />
 
   <!-- Vendors -->
   <project path="vendor/du" name="android_vendor_du" remote="staging" />
