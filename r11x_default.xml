@@ -38,10 +38,20 @@
   <project path="manifest" name="android_manifest" remote="staging" />
   <project path="platform_testing" name="android_platform_testing" remote="staging" />
 
+  <!-- External -->
+  <project path="external/guice" name="android_external_guice" remote="staging" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/native" name="android_frameworks_native" remote="staging" />
+
   <!-- Hardware -->
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="staging" />
 
-  <!-- Vendors -->
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="staging" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="staging" />
+
+  <!-- Vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="staging" />
   <project path="vendor/extras" name="android_vendor_extras" remote="staging" />
 
