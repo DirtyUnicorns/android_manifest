@@ -46,6 +46,7 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="staging" />
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="staging" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="staging" />

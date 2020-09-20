@@ -75,6 +75,7 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Browser2" />
