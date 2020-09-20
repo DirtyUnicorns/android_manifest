@@ -49,6 +49,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="staging" />
+  <project path="system/core" name="android_system_core" remote="staging" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="staging" />
 
   <!-- Vendor -->
