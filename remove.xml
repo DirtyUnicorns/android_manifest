@@ -106,6 +106,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
