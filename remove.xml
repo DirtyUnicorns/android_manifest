@@ -65,6 +65,7 @@
   <remove-project name="platform/external/guice" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
   <!-- General -->

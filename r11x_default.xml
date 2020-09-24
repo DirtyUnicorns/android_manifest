@@ -42,6 +42,7 @@
   <project path="external/guice" name="android_external_guice" remote="staging" />
 
   <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="staging" />
   <project path="frameworks/native" name="android_frameworks_native" remote="staging" />
 
   <!-- Hardware -->
