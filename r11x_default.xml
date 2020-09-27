@@ -13,16 +13,16 @@
   <remote  name="alternate"
            fetch="https://git.dirtyunicorns.com/DirtyUnicorns/" />
 
-  <!-- DU staging -->
-  <remote  name="staging"
+  <!-- DU -->
+  <remote  name="du"
            revision="r11x"
-           fetch="https://github.com/UnicornioSucio/" />
+           fetch="https://github.com/DirtyUnicorns/" />
 
   <!-- DU REPOS -->
 
   <!-- General -->
-  <project path="bionic" name="android_bionic" remote="staging" />
-  <project path="build/make" name="android_build" remote="staging" >
+  <project path="bionic" name="android_bionic" remote="du" />
+  <project path="build/make" name="android_build" remote="du" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,32 +31,32 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="staging" >
+  <project path="build/soong" name="android_build_soong" remote="du" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="android_manifest" remote="staging" />
-  <project path="platform_testing" name="android_platform_testing" remote="staging" />
+  <project path="manifest" name="android_manifest" remote="du" />
+  <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!-- External -->
-  <project path="external/guice" name="android_external_guice" remote="staging" />
+  <project path="external/guice" name="android_external_guice" remote="du" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="staging" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="staging" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="du" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="du" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="staging" />
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="staging" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="staging" />
-  <project path="system/core" name="android_system_core" remote="staging" />
-  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="staging" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="staging" />
+  <project path="system/bt" name="android_system_bt" remote="du" />
+  <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="du" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="du" />
 
   <!-- Vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="staging" />
-  <project path="vendor/extras" name="android_vendor_extras" remote="staging" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" />
+  <project path="vendor/extras" name="android_vendor_extras" remote="du" />
 
 </manifest>
