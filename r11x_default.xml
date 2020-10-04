@@ -22,6 +22,7 @@
 
   <!-- General -->
   <project path="bionic" name="android_bionic" remote="du" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="du" />
   <project path="build/make" name="android_build" remote="du" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
