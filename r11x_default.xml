@@ -62,5 +62,6 @@
   <!-- Vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" />
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="du" />
 
 </manifest>
