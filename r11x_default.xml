@@ -64,7 +64,7 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="du" />
 
   <!-- Vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="du" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
