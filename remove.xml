@@ -76,6 +76,7 @@
   <remove-project name="platform/platform_testing" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
 
