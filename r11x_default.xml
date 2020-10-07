@@ -63,6 +63,7 @@
   <project path="system/bt" name="android_system_bt" remote="du" />
   <project path="system/core" name="android_system_core" remote="du" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="du" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="du" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
   <project path="system/update_engine" name="android_system_update_engine" remote="du" />
   <project path="system/vold" name="android_system_vold" remote="du" />
