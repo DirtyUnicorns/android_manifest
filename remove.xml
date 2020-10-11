@@ -64,6 +64,7 @@
   <!-- External -->
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
