@@ -51,6 +51,7 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
