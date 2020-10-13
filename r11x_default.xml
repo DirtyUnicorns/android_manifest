@@ -52,6 +52,20 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="du" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="du" revision="r11x-caf-8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="du" revision="r11x-caf-8998" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="du" revision="r11x-caf-8996" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="du" revision="r11x-caf-8998" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="du" revision="r11x-caf-8996" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="du" revision="r11x-caf-8998" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="du" revision="r11x-caf" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="du" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
