@@ -65,6 +65,7 @@
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
