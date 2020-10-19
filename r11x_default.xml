@@ -85,8 +85,12 @@
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="du" />
   <project path="system/libufdt" name="android_system_libufdt" remote="du" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="du" />
   <project path="system/update_engine" name="android_system_update_engine" remote="du" />
   <project path="system/vold" name="android_system_vold" remote="du" />
+
+  <!-- Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="du" />
 
   <!-- Vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="du" >
