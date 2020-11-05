@@ -54,6 +54,7 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="du" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="du" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="du" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
@@ -72,6 +73,7 @@
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="du" />
 
   <!-- Packages -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="du" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" />
