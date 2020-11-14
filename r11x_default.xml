@@ -102,6 +102,7 @@
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/support" name="android_vendor_support" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
 
 </manifest>
